@@ -4,6 +4,19 @@ let question = { //Variable "question" from the quiz.
     answer: 2,
 }
 
+function start() {
+
+
+
+    
+    displayQuestion(question); //Calling the function "displayQuestion" with the argument "question".
+
+
+}    //Function to start the quiz.
+
+
+
+
 function displayQuestion(q) { //Function to display the question and alternatives.
     let divTitle = document.getElementById("title");
    divTitle.textContent = q.title;
@@ -12,14 +25,14 @@ function displayQuestion(q) { //Function to display the question and alternative
    divAlternatives.forEach(function(element, index){ //Looping through the elements in the variable "divAlternatives" and putting them in the variable "element".
          element.textContent = q.alternatives[index]; //Putting the text content of the elements in the variable "divAlternatives" in the variable "element".
          element.addEventListener("click", function(){ //Adding an event listener to the variable "element" with the event "click" and a function as argument.
-            if(index == q.answer){ //If the index of the variable "element" is equal to the answer in the variable "question" then the console will log "Correct!".
-                console.log("Correct!"); //If the index of the variable "element" is not equal to the answer in the variable "question" then the console will log "Wrong!".
+            if(index == q.answer){ 
+                console.log("Correct!"); 
             } else {
-                console.log("Wrong!"); //If the index of the variable "element" is not equal to the answer in the variable "question" then the console will log "Wrong!".
+                console.log("Wrong!"); 
             }
 
         })
     })
 }
 
-displayQuestion(question); //Calling the function "displayQuestion" with the variable "question" as argument.
+start(); //Calling the function "start".
