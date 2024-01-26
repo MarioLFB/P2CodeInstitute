@@ -1,3 +1,35 @@
+* {
+    /*DEFAULT INITIAL SETTING*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
 body {
     background-color: #BA4C4C;  
 }
+
+#logoh2 {
+    color: #F2F2F2;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header div ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #F2F2F2;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+     
+
