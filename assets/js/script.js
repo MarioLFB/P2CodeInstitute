@@ -1,4 +1,4 @@
-let question = [
+let question = [ // Array of questions, alternatives and answers
 
     {
         title: "What is the capital of Japan?",
@@ -52,7 +52,7 @@ let question = [
     }
     ]
 
-function start() {
+function start() { // Function to start the quiz
 
     this.totalScore = 0;
     this.currentQuestion = 0;
@@ -68,7 +68,7 @@ function start() {
     displayQuestion(question[this.currentQuestion]);
 }
 
-function displayQuestion(q) {
+function displayQuestion(q) { // Function to display the questions
     let divTitle = document.getElementById("title");
     divTitle.textContent = q.title;
 
@@ -78,14 +78,14 @@ function displayQuestion(q) {
     });
 }
 
-function nextQuestion() {
+function nextQuestion() { // Function to go to the next question
     this.currentQuestion++;
     if (this.currentQuestion === question.length) {
         this.currentQuestion = 0;
     }
 }
 
-function checkAnswer(q, user) {
+function checkAnswer(q, user) { // Function to check if the answer is correct or not
     if (q.answer[0] === user) {
         console.log("Correct");
         this.totalScore++;
@@ -97,11 +97,11 @@ function checkAnswer(q, user) {
     displayQuestion(question[this.currentQuestion]);
 }
 
-function displayScore() { 
+function displayScore() { // Function to display the score
     let divTitle = document.getElementById("score");
     divTitle.textContent = "Your score is: " + this.totalScore;
 }
 
 
-start();
+start(); // Function to start the quiz
 
