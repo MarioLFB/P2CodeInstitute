@@ -53,7 +53,10 @@ let question = [
     ]
 
 function start() {
+
+    this.totalScore = 0;
     this.currentQuestion = 0;
+
     let divAlternatives = document.querySelectorAll(".question");
     divAlternatives.forEach((element, index) => {
         element.addEventListener("click", () => {
@@ -61,6 +64,7 @@ function start() {
         });
     });
 
+    this.displayScore();
     displayQuestion(question[this.currentQuestion]);
 }
 
@@ -84,12 +88,20 @@ function nextQuestion() {
 function checkAnswer(q, user) {
     if (q.answer[0] === user) {
         console.log("Correct");
+        this.totalScore++;
     } else {
         console.log("Wrong");
     }
+    this.displayScore();
     nextQuestion();
     displayQuestion(question[this.currentQuestion]);
 }
+
+function displayScore() { 
+    let divTitle = document.getElementById("score");
+    divTitle.textContent = "Your score is: " + this.totalScore;
+}
+
 
 start();
 
