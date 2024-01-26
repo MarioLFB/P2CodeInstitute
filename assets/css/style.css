@@ -24,6 +24,10 @@ header div ul {
     height: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: #F2F2F2;
     margin: 10px;
