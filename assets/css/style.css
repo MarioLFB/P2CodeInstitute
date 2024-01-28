@@ -78,9 +78,13 @@ a {
     padding: 5px;
     margin: 10px;
     text-align: center;
-   
 }
 
-
+#score {
+    background-color: #e4e0e0;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
      
 
