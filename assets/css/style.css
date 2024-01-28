@@ -10,7 +10,7 @@
 
 body {
     /*BACKGROUND COLOR FOR THE BODY*/
-    background-color: #BA4C4C;  
+    background-color: #BA4C4C;
 }
 
 #logoh2 { 
@@ -26,6 +26,16 @@ body {
 #menu {
     /*NAV BAR COLOR*/
     background-color: #3f1d1d;
+}
+
+#title {
+    /*TITLE*/
+    color: #e4e0e0;
+    font-size: 20px;
+    font-weight: bold;
+  
+    text-align: center;
+    margin-top: 10px;
 }
 
 header div ul {
@@ -50,13 +60,9 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    border: 15px solid #3f1d1d;
     padding: 10px;
-    width: 90%;
-    margin-left: 5%;
-    border-radius: 5%;
     margin-top: 50px;
-    background-color: #f3ebeb;
+    background-color: #3f1d1d;
 }
 
 
