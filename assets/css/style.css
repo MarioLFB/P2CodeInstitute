@@ -98,7 +98,7 @@ a {
 footer {
     position: fixed;
     bottom: 0;
-    width: 100%;  
+    width: 100%; 
 }
 
 #footer {
@@ -106,6 +106,10 @@ footer {
     background-color: #3f1d1d;
     font-size: 20px;
     color: #e4e0e0;
+    height: 70px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
      
 
