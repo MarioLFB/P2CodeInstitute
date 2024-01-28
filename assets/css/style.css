@@ -94,5 +94,12 @@ a {
     text-align: center;
     
 }
+
+#footer {
+    text-align: center;
+    background-color: #3f1d1d;
+    font-size: 20px;
+    color: #e4e0e0;
+}
      
 
