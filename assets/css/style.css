@@ -113,3 +113,10 @@ footer {
 }
      
 
+@media screen and (max-width: 767px) {
+    .question:hover {
+        background-color: #e4e0e0;
+        color: #3f1d1d;
+        cursor: pointer;
+    }
+}
