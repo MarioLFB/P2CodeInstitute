@@ -80,12 +80,6 @@ a {
     text-align: center;
 }
 
-.question:hover {
-    /*QUESTION HOVER*/
-    background-color: #3f1d1d;
-    color: #e4e0e0;
-    cursor: pointer;
-}
 
 #score {
     background-color: #e4e0e0;
@@ -111,12 +105,13 @@ footer {
     justify-content: center;    
     align-items: center;
 }
-     
+ 
+/*---------------------------------------------------------------MEDIA QUERY-----------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
     .question:hover {
-        background-color: #e4e0e0;
-        color: #3f1d1d;
-        cursor: pointer;
-    }
+    background-color: #3f1d1d;
+    color: #e4e0e0;
+    cursor: pointer;
+}
 }
