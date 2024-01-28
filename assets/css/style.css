@@ -10,11 +10,15 @@ body {
 }
 
 #logoh2 {
-    color: #F2F2F2;
+    color: #3f1d1d;
     font-size: 50px;
     font-weight: 900;
     text-align: center;
     margin-top: 10px;
+}
+
+#menu {
+    background-color: #3f1d1d;
 }
 
 header div ul {
@@ -22,16 +26,17 @@ header div ul {
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 
 .navbar {
-    background-color: #F2F2F2;
     margin: 10px;
-    text-decoration: none;
 }
 
 
