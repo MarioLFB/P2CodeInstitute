@@ -95,6 +95,11 @@ a {
     
 }
 
+footer {
+    position: fixed;
+    bottom: 0;  
+}
+
 #footer {
     text-align: center;
     background-color: #3f1d1d;
