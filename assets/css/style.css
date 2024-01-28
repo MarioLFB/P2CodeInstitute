@@ -9,10 +9,12 @@
   }
 
 body {
+    /*BACKGROUND COLOR FOR THE BODY*/
     background-color: #BA4C4C;  
 }
 
-#logoh2 {
+#logoh2 { 
+    /*LOGO*/
     color: #e4e0e0;
     font-size: 50px;
     font-family: 'Anton', sans-serif;
@@ -22,6 +24,7 @@ body {
 }
 
 #menu {
+    /*NAV BAR COLOR*/
     background-color: #3f1d1d;
 }
 
@@ -40,9 +43,7 @@ a {
     font-size: 25px;
 }
 
-.navbar {
-    margin: 10px;
-}
+
 
 
      
