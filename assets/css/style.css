@@ -80,11 +80,19 @@ a {
     text-align: center;
 }
 
+.question:hover {
+    /*QUESTION HOVER*/
+    background-color: #3f1d1d;
+    color: #e4e0e0;
+    cursor: pointer;
+}
+
 #score {
     background-color: #e4e0e0;
     padding: 10px;
     width: 150px;
     text-align: center;
+    
 }
      
 
