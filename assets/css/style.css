@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap');
 
 
 * {
@@ -35,8 +35,9 @@ header div ul {
 
 a {
     text-decoration: none;
+    font-family: 'Passion One', sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .navbar {
