@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
     /*DEFAULT INITIAL SETTING*/
@@ -109,6 +109,7 @@ footer {
 }
 
 #footer {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     background-color: #3f1d1d;
     font-size: 20px;
