@@ -87,7 +87,17 @@ function nextQuestion() { // Function to go to the next question
     displayQuestion(question[this.currentQuestion]);
 }
 
+function endQuiz() {
+    let divTitle = document.getElementById("title");
+    let divAlternatives = document.querySelectorAll(".question");
 
+    // Add end of quiz message
+    divTitle.textContent = "Quiz Finished! Your final score is: " + this.totalScore;
+    divAlternatives.forEach(element => {
+        element.style.display = 'none'; // Hide question buttons
+    });
+
+}
 
 
 
