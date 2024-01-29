@@ -81,9 +81,15 @@ function displayQuestion(q) { // Function to display the questions
 function nextQuestion() { // Function to go to the next question
     this.currentQuestion++;
     if (this.currentQuestion === question.length) {
-        this.currentQuestion = 0;
+        endQuiz(); // Function to end the quiz
+        return; 
     }
+    displayQuestion(question[this.currentQuestion]);
 }
+
+
+
+
 
 function checkAnswer(q, user) { // Function to check if the answer is correct or not
     if (q.answer[0] === user) {
