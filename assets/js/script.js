@@ -96,9 +96,7 @@ function endQuiz() {
     divAlternatives.forEach(element => {
         element.style.display = 'none'; // Hide question buttons
     });
-
 }
-
 
 
 function checkAnswer(q, user) { // Function to check if the answer is correct or not
