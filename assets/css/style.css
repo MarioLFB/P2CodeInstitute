@@ -30,6 +30,7 @@ body {
 
 #title {
     /*TITLE*/
+    
     color: #e4e0e0;
     font-size: 22px;
     font-weight: bold;
@@ -72,6 +73,7 @@ a {
 
 .question {
     /*QUESTION*/
+    font-family: 'Passion One', sans-serif;
     list-style-type: none;
     font-size: 20px;
     background-color: #e4e0e0;
