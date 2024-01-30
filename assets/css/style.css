@@ -119,6 +119,19 @@ footer {
     justify-content: center;    
     align-items: center;
 }
+
+#restart {
+    /*RESTART BUTTON*/
+    font-size: 22px;
+    border: none;
+    background-color: #292323;
+    color: #e4e0e0;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    margin-top: 20px;
+}   
 /*---------------------------------------------------------------QUIZ PAGE-----------------------------------------------------------------------------------------*/
  #quizh1 {
     font-family: 'Playfair Display', serif;
@@ -133,6 +146,7 @@ footer {
     padding: 30px;
 
  }
+
 /*---------------------------------------------------------------MEDIA QUERY-----------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 767px) {
