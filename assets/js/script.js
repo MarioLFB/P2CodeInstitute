@@ -66,6 +66,10 @@ function start() { // Function to start the quiz
 
     this.displayScore();
     displayQuestion(question[this.currentQuestion]);
+
+    // add restart button
+    let restartButton = document.getElementById("restart");
+    restartButton.addEventListener("click", reset);
 }
 
 function displayQuestion(q) { // Function to display the questions
