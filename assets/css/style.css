@@ -180,6 +180,7 @@ label[for="name"] {
 #name::placeholder {
     font-size: 12px;
     color: #be1919;
+    text-align: center;
 }
 
 
