@@ -114,6 +114,9 @@ function displayScore() { // Function to display the score
     divTitle.textContent = "Your score is: " + this.totalScore;
 }
 
+document.getElementById('restart').addEventListener('click', function() { // Function to restart the quiz
+    location.reload();
+});
 
 
 start(); // Function to start the quiz
