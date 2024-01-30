@@ -162,6 +162,13 @@ footer {
     padding: 30px;
 }
 
+#name {
+    width: 90%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 label[for="name"] {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
