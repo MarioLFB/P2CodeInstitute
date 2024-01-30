@@ -102,7 +102,6 @@ function endQuiz() {
     });
 }
 
-
 function checkAnswer(q, user) { // Function to check if the answer is correct or not
     if (q.answer[0] === user) {
         console.log("Correct");
@@ -120,6 +119,18 @@ function displayScore() { // Function to display the score
     divTitle.textContent = "Your score is: " + this.totalScore;
 }
 
+function reset() { // Function to reset the quiz
+    this.totalScore = 0;
+    this.currentQuestion = 0;
+    
+    let divAlternatives = document.querySelectorAll(".question");
+    divAlternatives.forEach(element => {
+        element.style.display = ''; // Show question buttons
+    });
+
+    displayQuestion(question[this.currentQuestion]);
+    displayScore();
+}
 
 start(); // Function to start the quiz
 
