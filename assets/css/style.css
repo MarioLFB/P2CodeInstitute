@@ -183,6 +183,13 @@ label[for="name"] {
     text-align: center;
 }
 
+#quizForm button {
+    background-color: #4CAF50; 
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    border: 0.1px solid #000000;
+}
 
 /*---------------------------------------------------------------QUIZ PAGE-----------------------------------------------------------------------------------------*/
  #quizh1 {
