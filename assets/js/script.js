@@ -53,7 +53,6 @@ let question = [ // Array of questions, alternatives and answers
     ]
 
 function start() { // Function to start the quiz
-
     this.totalScore = 0;
     this.currentQuestion = 0;
 
@@ -66,10 +65,6 @@ function start() { // Function to start the quiz
 
     this.displayScore();
     displayQuestion(question[this.currentQuestion]);
-
-    // add restart button
-    let restartButton = document.getElementById("restart");
-    restartButton.addEventListener("click", reset);
 }
 
 function displayQuestion(q) { // Function to display the questions
@@ -119,18 +114,7 @@ function displayScore() { // Function to display the score
     divTitle.textContent = "Your score is: " + this.totalScore;
 }
 
-function reset() { // Function to reset the quiz
-    this.totalScore = 0;
-    this.currentQuestion = 0;
-    
-    let divAlternatives = document.querySelectorAll(".question");
-    divAlternatives.forEach(element => {
-        element.style.display = ''; // Show question buttons
-    });
 
-    displayQuestion(question[this.currentQuestion]);
-    displayScore();
-}
 
 start(); // Function to start the quiz
 
