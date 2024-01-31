@@ -193,7 +193,7 @@ label[for="name"] {
     text-align: center;
 }
 
-#quizform button {
+#quizForm button {
     background-color: #4CAF50; 
     font-size: 25px;
     color: white;
@@ -216,18 +216,12 @@ label[for="name"] {
 
  }
 
-/*---------------------------------------------------------------MEDIA QUERY-----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------MEDIA QUERY- 767px----------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 767px) {
-    .question:hover {
-    background-color: #3f1d1d;
-    color: #e4e0e0;
-    cursor: pointer;
-}
-
 #wrapper {
-    display: flex;
-    flex-direction: row;
+    margin-top: 10%;
+    border: 50px solid #BA4C4C;
 }
 
 #h1cover {
@@ -235,29 +229,19 @@ label[for="name"] {
 }
 
 #h2cover {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 label[for="name"] {
-    font-size: 35px;
+    font-size: 20px;
 }
 
-#name {
-    margin-left: 20px;
-    margin-top: 20px;
+#name::placeholder {
+    font-size: 17px;
 }
 
-#quizform {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-#quizform button {
-    width: 150px;
-    height: 90px;
-    margin-left: 25%;
-    margin-top: 20px;
+#quizForm button {
+    margin-top: 10px;
 }
 
 }
