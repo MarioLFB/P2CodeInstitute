@@ -4,15 +4,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     const startButton = document.querySelector('#quizForm button');
 
-    if (startButton) {
-        startButton.addEventListener('click', function () {
-            const nameInput = document.getElementById('name');
-        
-            if (nameInput.value.trim() !== '') {
-                window.location.href = 'puzzle.html';
-            } else {
-                alert('Please fill in your name before starting the quiz.');
-            }
-        });
-    }
+    startButton.addEventListener('click', function () {
+        const nameInput = document.getElementById('name');
+
+        if (nameInput.value.trim() !== '') {
+            localStorage.setItem('playerName', nameInput.value);
+            window.location.href = 'puzzle.html'; 
+        } else {
+            alert('Please fill in your name before starting the quiz.');
+        }
+    });
 });

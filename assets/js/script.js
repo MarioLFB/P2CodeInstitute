@@ -52,6 +52,13 @@ let question = [ // Array of questions, alternatives and answers
     }
     ]
 
+    document.addEventListener('DOMContentLoaded', function () {
+        let playerName = localStorage.getItem('playerName'); 
+        if (playerName) {
+            document.getElementById('player-name').textContent = playerName;
+        }
+    });
+
 function start() { // Function to start the quiz
     this.totalScore = 0;
     this.currentQuestion = 0;
