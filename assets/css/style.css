@@ -287,4 +287,16 @@ a {
     border: 100px solid #BA4C4C;
     padding: 50px;
 }
+
+#quizh1 {
+    font-size: 80px;
+    color: #3f1d1d;
+}
+
+#quizp {
+    font-size: 35px;
+    text-align: center;
+}
+
+
 }
