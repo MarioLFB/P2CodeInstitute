@@ -94,14 +94,13 @@ a {
 }
 
 #player-name {
-    font-weight: 700;
+    font-family: 'Anton', sans-serif;
     color: #ffffff;
-    border: 2px solid #080808;
     text-align: center;
-    font-size: 25px;
-    background-color: #310d0d;
+    font-size: 22px;
+    background-color: #3f1d1d;
     width: 200px;
-    height: 33px;
+    height: 34px;
 }
 
 
