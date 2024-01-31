@@ -193,7 +193,7 @@ label[for="name"] {
     text-align: center;
 }
 
-#quizForm button {
+#quizform button {
     background-color: #4CAF50; 
     font-size: 25px;
     color: white;
@@ -224,4 +224,40 @@ label[for="name"] {
     color: #e4e0e0;
     cursor: pointer;
 }
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#h1cover {
+    font-size: 40px;
+}
+
+#h2cover {
+    font-size: 35px;
+}
+
+label[for="name"] {
+    font-size: 35px;
+}
+
+#name {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#quizform {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#quizform button {
+    width: 150px;
+    height: 90px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
 }
