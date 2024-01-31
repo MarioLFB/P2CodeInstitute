@@ -68,7 +68,6 @@ a {
 
 .mainsection ul {
     /*UL FOR THE MAIN SECTION*/
-    
     width: 250px;
 }
 
@@ -142,6 +141,7 @@ footer {
     text-align: center;
     font-family: 'Concert One', sans-serif;
 }   
+
 /*---------------------------------------------------------------COVER PAGE-----------------------------------------------------------------------------------------*/
 #wrapper {
     display: flex;
@@ -244,4 +244,12 @@ label[for="name"] {
     margin-top: 10px;
 }
 
+.question:hover {
+    background-color: #752222;
+    color: #ffffff;
+    cursor: pointer;
 }
+
+}
+
+@media screen and (min-width: 767px) {
