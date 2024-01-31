@@ -52,7 +52,7 @@ let question = [ // Array of questions, alternatives and answers
     }
     ]
 
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () { // Function to display the player name
         let playerName = localStorage.getItem('playerName'); 
         if (playerName) {
             document.getElementById('player-name').textContent = playerName;
