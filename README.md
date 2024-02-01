@@ -36,3 +36,10 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
+
+### User Goals
+- The primary objective of the website is to entertain and challenge users through a Quiz focused on general knowledge. By engaging in this interactive experience, users can enhance their logical thinking skills while gaining knowledge on a variety of subjects.
+- Users will grasp the significance of the Quiz Game as a tool for promoting mental exercise. Beyond mere entertainment, the quiz serves as a cognitive workout, encouraging users to think critically and expand their intellectual capabilities.
+- Facilitating user experience is a core goal, ensuring that users can effortlessly and intuitively access the quiz. The website design prioritizes clarity and objectivity, enabling users to find their way to the quiz promptly. The emphasis is on creating an interactive pathway that enhances user satisfaction and encourages active participation.
