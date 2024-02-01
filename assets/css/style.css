@@ -231,19 +231,20 @@ label[for="name"] {
 @media screen and (min-width: 767px) {
 #wrapper {
     margin-top: 10%;
-    border: 50px solid #BA4C4C;
+    background-color: #BA4C4C;;
 }
 
 #h1cover {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #h2cover {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 label[for="name"] {
-    font-size: 20px;
+    color: #fff;
+    font-size:30px;
 }
 
 #name::placeholder {
