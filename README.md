@@ -48,3 +48,24 @@
 - Boost engagement and grow the user base with an entertaining Quiz on general knowledge. Attract individuals seeking intellectual stimulation, fostering continuous website traffic and participation.
 - Establish the site as a top cognitive fitness platform, highlighting the Quiz Game's role in mental exercise. Position it as the go-to destination for enhancing logical thinking skills and enjoying an intellectually stimulating experience.
 - Enhance user interaction and retention with a seamless, intuitive experience. Provide clear quiz navigation, user-friendly interfaces, and features encouraging users to return. Create an environment that keeps users coming back for more quizzes.
+
+## User Experience
+
+### Target Audience
+- Individuals seeking an engaging and challenging quiz experience on general knowledge.
+- Enthusiasts looking for an interactive environment for intellectual stimulation through quizzes.
+- Groups and organizations interested in incorporating a quiz as an educational or entertainment tool.
+
+### User Requirements and Expectations
+- Quick and easy location of relevant information about available quizzes.
+- Quality content presentation and visually appealing design adaptable to different screen sizes.
+- Concise and easily readable content for a quick understanding of the topics covered in the quizzes.
+- Accessibility, ensuring that all users can fully enjoy the general knowledge quiz platform.
+
+### User Stories
+
+#### First-time User 
+1. As a first-time user, I want to easily find the quiz on the website.
+2. I'd like to learn more about how quizzes work and what to expect as a newcomer.
+3. As a first-time user, my goal is to gather information about the the quizzes.
+4. I want to get an idea of what to expect when using the quiz platform.
