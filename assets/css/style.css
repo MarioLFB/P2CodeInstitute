@@ -62,10 +62,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .mainsection ul {
@@ -104,24 +102,6 @@ a {
     height: 34px;
 }
 
-
-footer {
-    /*FOOTER*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #3f1d1d;
-}
-
-#footer {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    color: #e4e0e0;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-
 #restart {
     /*RESTART BUTTON*/
     font-size: 18px;
@@ -135,11 +115,29 @@ footer {
     font-family: 'Concert One', sans-serif;
 }   
 
-#logofrog {
-    /*LOGO FROG*/
-    height: 70px;
+#footer {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #e4e0e0;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
+footer {
+    /*FOOTER*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f1d1d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#logofrog {
+    /*LOGO FROG*/
+    height: 40px;
+}
 
 /*---------------------------------------------------------------COVER PAGE (index.html)-----------------------------------------------------------------------------------------*/
 #wrapper {
@@ -203,9 +201,11 @@ label[for="name"] {
 /*---------------------------------------------------------------QUIZ PAGE (quiz.html)-----------------------------------------------------------------------------------------*/
  
 #quizpage {
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    border: 5px solid #BA4C4C;
-    padding: 10px;
+    border: 15px solid #BA4C4C;
+    padding: 5px;
 }
 
 #quizh1 {
@@ -213,6 +213,7 @@ label[for="name"] {
     color: #3f1d1d;
     font-size: 40px;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
  }
 
@@ -221,14 +222,6 @@ label[for="name"] {
     color: #000000;
     text-align: center;
     font-size: 15px;
- }
-
- #logofrogquiz {
-    /*LOGO FROG*/
-    height: 200px;
-    text-align: center;
-    position: relative;
-    bottom: 60px;
  }
 
 
