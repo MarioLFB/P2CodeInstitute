@@ -104,7 +104,7 @@ Footer with Developer's Name Information.
 </details>
 
 <details><summary>Informative Page</summary>
-<img src="docs\wireframe\signup.png">
+<img src="docs\wireframe\informativepage.png">
 </details>
 
 ## Technologies Used
