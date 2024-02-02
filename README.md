@@ -82,6 +82,20 @@
 11. As the Owner, it is expected that the User completes the Quiz.
 12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 
+## Design
+
+### Design Choices
+The website was created with the aim of providing a clean and direct visual experience to the content. It was constructed with large and prominent text fonts, in order to attract the user's attention. With reduced elements, and strong color, the user has an objective design experience focused on the main theme, which is the interaction with the Quiz.
+
+### Structure
+The website includes:
+- Opening page: Image logo, introductory Title, Interactivity for user name input, and a button to start the quiz.
+- Main page with the Quiz content: Website name logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
+Footer with Developer's Name Information.
+- Information page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
+
+
+
 
 
 
