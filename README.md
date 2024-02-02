@@ -64,8 +64,28 @@
 
 ### User Stories
 
-#### First-time User 
-1. As a first-time user, I want to easily find the quiz on the website.
-2. I'd like to learn more about how quizzes work and what to expect as a newcomer.
-3. As a first-time user, my goal is to gather information about the the quizzes.
-4. I want to get an idea of what to expect when using the quiz platform.
+#### First-time User  
+1. First time accessing, the User has clear information on the purpose of the Website.
+2. First time accessing, the User finds a direct link to the Quiz.
+3. First time accessing, the User has the ability to complete and understand the Quiz.
+4. First time accessing, the User is able to view all the functionalities of the Website.
+
+#### Returning User
+5. Returning to the Website, the User can access the quiz again.
+6. Returning to the Website, the User can find additional information such as who developed the Quiz.
+7. Returning to the Website, the User can find future updates and new Quizzes.
+8. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+
+#### Site Owner
+9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+10. As the Owner, it is expected that the User has quick access to the Quiz.
+11. As the Owner, it is expected that the User completes the Quiz.
+12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+
+
+
+
+
+
+
+
