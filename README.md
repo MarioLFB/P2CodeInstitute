@@ -94,7 +94,33 @@ The website includes:
 Footer with Developer's Name Information.
 - Information page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
 
+#### Wireframes
+<details><summary>Cover Page</summary>
+<img src="docs\wireframe\coverpage.png">
+</details>
 
+<details><summary>Main Page</summary>
+<img src="docs\wireframe\mainpage.png">
+</details>
+
+<details><summary>Informative Page</summary>
+<img src="docs\wireframe\signup.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- Java Script
+
+### Tools
+
+1. Google Fonts: [Link](https://fonts.google.com/)
+3. Ideogram: [Link](https://ideogram.ai/)
+4. GitHub: [Link](https://github.com/)
+5. Draw.io: [Link](https://https://app.diagrams.net/)
+6. Color Spire: [Link](https://colorspire.com/)
 
 
 
