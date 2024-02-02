@@ -1,7 +1,7 @@
 # FlashFacts
 (Developer: Mario Borges)
 
-<h2 align="center"><img src="assets\amiresponsivep2.png"></h2>
+<h2 align="center"><img src="docs\amiresponsivep2.png"></h2>
 
 [View the live project here.](https://mariolfb.github.io/P2CodeInstitute/)
 
@@ -87,10 +87,22 @@
 ### Design Choices
 The website was created with the aim of providing a clean and direct visual experience to the content. It was constructed with large and prominent text fonts, in order to attract the user's attention. With reduced elements, and strong color, the user has an objective design experience focused on the main theme, which is the interaction with the Quiz.
 
+#### Colour Scheme
+- The primary colors used in the project are Moderate red (#BA4C4C) and Dark Brown (#3f1d1d).
+<img src="docs\color\quizsitecolors.png">
+
+#### Fonts
+- The fonts used on the website are:
+'Anton'
+'Concert One'
+'Passion One'
+'Playfair Display'
+- In case of any issues, the fallback font is a 'sans-serif'.
+
 ### Structure
 The website includes:
 - Opening page: Image logo, introductory Title, Interactivity for user name input, and a button to start the quiz.
-- Main page with the Quiz content: Website name logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
+- Main page with the Quiz content: Website Name Logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
 Footer with Developer's Name Information.
 - Information page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
 
@@ -115,17 +127,11 @@ Footer with Developer's Name Information.
 - Java Script
 
 ### Tools
-
 1. Google Fonts: [Link](https://fonts.google.com/)
 3. Ideogram: [Link](https://ideogram.ai/)
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
-6. Color Spire: [Link](https://colorspire.com/)
+6. Color Hex: [Link](https://color-hex.org/)
 
-
-
-
-
-
-
-
+## Features
+The page consists of three page (Cover Page, Main Page and Informative Page), and twelve features
