@@ -147,9 +147,12 @@ The Logo is the first thing visible when accessing the Cover Page, providing vis
 
 - User's input name
 Brings interactivity to the user. The user's name will be displayed on the main page of the Quiz.
+The name must be filled in mandatory for access to the Quiz.
 - User stories covered: 2
-<details><summary>Image Logo and Main Text Slogan</summary>
+<details><summary>Input Name</summary>
 <img src="docs\features\input_username.png">
 </details>
-
+<details><summary>Name request</summary>
+<img src="docs\features\name_required.png">
+</details>
 
