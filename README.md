@@ -100,11 +100,11 @@ The website was created with the aim of providing a clean and direct visual expe
 - In case of any issues, the fallback font is a 'sans-serif'.
 
 ### Structure
-The website includes:
-- Opening page: Image logo, introductory Title, Interactivity for user name input, and a button to start the quiz.
-- Main page with the Quiz content: Website Name Logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
+The website Structure:
+- Cover Page: Image logo, introductory Title, Interactivity for user name input, and a button to start the quiz.
+- Main Page with the Quiz content: Website Name Logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
 Footer with Developer's Name Information.
-- Information page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
+- Information Page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
 
 #### Wireframes
 <details><summary>Cover Page</summary>
