@@ -69,7 +69,7 @@
 2. First time accessing, the User has an interactive experience where the name is requested for access.
 3. First time accessing, the User finds a direct link to the Quiz.
 4. First time accessing, the user is able to view all the functionalities of the website, including the logo and the navigation bar at the top of the website with their respective links (Home and Quiz?).
-5. First time accessing, the User has the ability to complete and understand the Quiz.
+5. First time accessing, the user has the ability to complete and understand the Quiz, as well as interact with features such as the Score, Displayed Name, and Restarting the Quiz.
 
 #### Returning User
 6. Returning to the Website, the User can access the quiz again.
@@ -181,4 +181,25 @@ The user indeed has the main experience, which is the Interactive Quiz. The ques
 - User stories covered: 5
 <details><summary>Quiz</summary>
 <img src="docs\features\quiz.png">
+</details>
+
+- Score Container
+The user has the score displayed interactively.
+- User stories covered: 5
+<details><summary>Score Container</summary>
+<img src="docs\features\score_container.png">
+</details>
+
+- User Name Container
+The User Name Container displays the mandatory provided name on the Cover Page.
+- User stories covered: 5
+<details><summary>User Name Container</summary>
+<img src="docs\features\username_container.png">
+</details>
+
+- Restart Button
+The Restart Button allows the user to interactively restart the Quiz at any time.
+- User stories covered: 5
+<details><summary>Restart Button</summary>
+<img src="docs\features\restart_btn.png">
 </details>
