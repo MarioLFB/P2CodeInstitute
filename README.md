@@ -68,8 +68,8 @@
 1. First time accessing, the User has clear information on the purpose of the Website.
 2. First time accessing, the User has an interactive experience where the name is requested for access.
 3. First time accessing, the User finds a direct link to the Quiz.
-4. First time accessing, the User has the ability to complete and understand the Quiz.
-5. First time accessing, the User is able to view all the functionalities of the Website.
+4. First time accessing, the user is able to view all the functionalities of the website, including the logo and the navigation bar at the top of the website with their respective links (Home and Quiz?).
+5. First time accessing, the User has the ability to complete and understand the Quiz.
 
 #### Returning User
 6. Returning to the Website, the User can access the quiz again.
@@ -138,6 +138,7 @@ Footer with Developer's Name Information.
 The page consists of three page (Cover Page, Main Page and Informative Page), and twelve features
 
 ### Cover Page
+
 - Image Logo and Main Text Slogan
 The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
 - User stories covered: 1
@@ -163,3 +164,14 @@ Button that takes you directly to the Main Page of the Quiz.
 <img src="docs\features\btn_startquiz.png">
 </details>
 
+### Main Page
+
+- Logo and Navigation Bar
+At the top of the website, the first thing seen by the user is the Logo and the Navigation Bar with the 'Home' link and the informative page 'Quiz?'
+- User stories covered: 4 
+<details><summary>Logo</summary>
+<img src="docs\features\logotext.png">
+</details>
+<details><summary>Nav Bar</summary>
+<img src="docs\features\navbar.png">
+</details>
