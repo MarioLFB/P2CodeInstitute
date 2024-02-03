@@ -203,3 +203,10 @@ The Restart Button allows the user to interactively restart the Quiz at any time
 <details><summary>Restart Button</summary>
 <img src="docs\features\restart_btn.png">
 </details>
+
+- Footer 
+The footer provides the user information about the Quiz developer's name.
+- User stories covered: 7
+<details><summary>Footer</summary>
+<img src="docs\features\footer.png">
+</details>
