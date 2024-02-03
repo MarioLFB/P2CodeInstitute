@@ -156,3 +156,10 @@ The name must be filled in mandatory for access to the Quiz.
 <img src="docs\features\name_required.png">
 </details>
 
+- Start Quiz Button
+Button that takes you directly to the Main Page of the Quiz.
+- User stories covered: 3
+<details><summary>Quiz Button</summary>
+<img src="docs\features\btn_startquiz.png">
+</details>
+
