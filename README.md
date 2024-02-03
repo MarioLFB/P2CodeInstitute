@@ -66,21 +66,22 @@
 
 #### First-time User 
 1. First time accessing, the User has clear information on the purpose of the Website.
-2. First time accessing, the User finds a direct link to the Quiz.
-3. First time accessing, the User has the ability to complete and understand the Quiz.
-4. First time accessing, the User is able to view all the functionalities of the Website.
+2. First time accessing, the User has an interactive experience where the name is requested for access.
+3. First time accessing, the User finds a direct link to the Quiz.
+4. First time accessing, the User has the ability to complete and understand the Quiz.
+5. First time accessing, the User is able to view all the functionalities of the Website.
 
 #### Returning User
-5. Returning to the Website, the User can access the quiz again.
-6. Returning to the Website, the User can find additional information such as who developed the Quiz.
-7. Returning to the Website, the User can find future updates and new Quizzes.
-8. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+6. Returning to the Website, the User can access the quiz again.
+7. Returning to the Website, the User can find additional information such as who developed the Quiz.
+8. Returning to the Website, the User can find future updates and new Quizzes.
+9. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
 
 #### Site Owner
-9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
-10. As the Owner, it is expected that the User has quick access to the Quiz.
-11. As the Owner, it is expected that the User completes the Quiz.
-12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+10. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+12. As the Owner, it is expected that the User has quick access to the Quiz.
+12. As the Owner, it is expected that the User completes the Quiz.
+13. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 
 ## Design
 
@@ -136,12 +137,19 @@ Footer with Developer's Name Information.
 ## Features
 The page consists of three page (Cover Page, Main Page and Informative Page), and twelve features
 
-1. Cover Page
+### Cover Page
 - Image Logo and Main Text Slogan
 The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
 - User stories covered: 1
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="docs\features\logo_slogantext.png">
+</details>
+
+- User's input name
+Brings interactivity to the user. The user's name will be displayed on the main page of the Quiz.
+- User stories covered: 2
+<details><summary>Image Logo and Main Text Slogan</summary>
+<img src="docs\features\input_username.png">
 </details>
 
 
