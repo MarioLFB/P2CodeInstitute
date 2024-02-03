@@ -64,7 +64,7 @@
 
 ### User Stories
 
-#### First-time User  
+#### First-time User 
 1. First time accessing, the User has clear information on the purpose of the Website.
 2. First time accessing, the User finds a direct link to the Quiz.
 3. First time accessing, the User has the ability to complete and understand the Quiz.
@@ -135,3 +135,13 @@ Footer with Developer's Name Information.
 
 ## Features
 The page consists of three page (Cover Page, Main Page and Informative Page), and twelve features
+
+1. Cover Page
+- Image Logo and Main Text Slogan
+The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
+- User stories covered: 1
+<details><summary>Image Logo and Main Text Slogan</summary>
+<img src="docs\features\logo_slogantext.png">
+</details>
+
+
