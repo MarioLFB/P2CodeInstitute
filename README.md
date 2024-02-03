@@ -175,3 +175,10 @@ At the top of the website, the first thing seen by the user is the Logo and the 
 <details><summary>Nav Bar</summary>
 <img src="docs\features\navbar.png">
 </details>
+
+- Quiz: Questions and Answers
+The user indeed has the main experience, which is the Interactive Quiz. The question is displayed, followed by 4 answer options for the user to choose from.
+- User stories covered: 5
+<details><summary>Quiz</summary>
+<img src="docs\features\quiz.png">
+</details>
