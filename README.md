@@ -79,7 +79,7 @@
 
 #### Site Owner
 10. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
-12. As the Owner, it is expected that the User has quick access to the Quiz.
+11. As the Owner, it is expected that the User has quick access to the Quiz.
 12. As the Owner, it is expected that the User completes the Quiz.
 13. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 
@@ -135,13 +135,13 @@ Footer with Developer's Name Information.
 6. Color Hex: [Link](https://color-hex.org/)
 
 ## Features
-The page consists of three page (Cover Page, Main Page and Informative Page), and twelve features
+The page consists of three page (Cover Page, Main Page and Informative Page), and thirteen features
 
 ### Cover Page
 
 - Image Logo and Main Text Slogan
 The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
-- User stories covered: 1
+- User stories covered: 1, 8  and 10
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="docs\features\logo_slogantext.png">
 </details>
@@ -149,7 +149,7 @@ The Logo is the first thing visible when accessing the Cover Page, providing vis
 - User's input name
 Brings interactivity to the user. The user's name will be displayed on the main page of the Quiz.
 The name must be filled in mandatory for access to the Quiz.
-- User stories covered: 2
+- User stories covered: 2 and 6
 <details><summary>Input Name</summary>
 <img src="docs\features\input_username.png">
 </details>
@@ -159,7 +159,7 @@ The name must be filled in mandatory for access to the Quiz.
 
 - Start Quiz Button
 Button that takes you directly to the Main Page of the Quiz.
-- User stories covered: 3
+- User stories covered: 3, 6 and 11
 <details><summary>Quiz Button</summary>
 <img src="docs\features\btn_startquiz.png">
 </details>
@@ -168,7 +168,7 @@ Button that takes you directly to the Main Page of the Quiz.
 
 - Logo and Navigation Bar
 At the top of the website, the first thing seen by the user is the Logo and the Navigation Bar with the 'Home' link and the informative page 'Quiz?'
-- User stories covered: 4 
+- User stories covered: 4
 <details><summary>Logo</summary>
 <img src="docs\features\logotext.png">
 </details>
@@ -178,7 +178,7 @@ At the top of the website, the first thing seen by the user is the Logo and the 
 
 - Quiz: Questions and Answers
 The user indeed has the main experience, which is the Interactive Quiz. The question is displayed, followed by 4 answer options for the user to choose from.
-- User stories covered: 5
+- User stories covered: 5 and 12
 <details><summary>Quiz</summary>
 <img src="docs\features\quiz.png">
 </details>
@@ -192,7 +192,7 @@ The user has the score displayed interactively.
 
 - User Name Container
 The User Name Container displays the mandatory provided name on the Cover Page.
-- User stories covered: 5
+- User stories covered: 5 and 2
 <details><summary>User Name Container</summary>
 <img src="docs\features\username_container.png">
 </details>
@@ -204,9 +204,26 @@ The Restart Button allows the user to interactively restart the Quiz at any time
 <img src="docs\features\restart_btn.png">
 </details>
 
+- Final Message: "Quiz Finished"
+Informs the user of the quiz completion with an interactive message and final score.
+- User stories covered: 5
+<details><summary>Final Message</summary>
+<img src="docs\features\quizfinished.png">
+</details>
+
 - Footer 
 The footer provides the user information about the Quiz developer's name.
 - User stories covered: 7
 <details><summary>Footer</summary>
 <img src="docs\features\footer.png">
 </details>
+
+### Quiz? Page
+
+- Informational text
+The informational Text aims to provide the user with additional information about the importance and reasons why the Quiz can aid in cognitive and mental development.
+- User stories covered: 9 and 13
+<details><summary>Informational Text</summary>
+<img src="docs\features\informativetext.png">
+</details>
+
