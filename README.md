@@ -397,7 +397,7 @@ The website underwent testing on the subsequent web browsers:
 12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 - Feature: Information Text ('Quiz?' Page)
 - Action: The user clicks on the 'Quiz?' link and immediately gains access to the informative text regarding the usability of the Quiz.
-Expected Result: The user gains a clear understanding of the importance of the quiz for cognitive and mental development.
+- Expected Result: The user gains a clear understanding of the importance of the quiz for cognitive and mental development.
 - Result: Operates as intended 
 <details><summary>Test User 12</summary>
 <img src="docs\testing_user_stories\testuser12.png">
