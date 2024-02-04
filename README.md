@@ -297,7 +297,10 @@ The website underwent testing on the subsequent web browsers:
 
 ### Testing user stories
 1. First time accessing, the User has clear information on the purpose of the Website.
-- Feature: Map and Footer
-- Action: Go to the Contact anchor link
-- Expected Result: The user will be taken directly to the section.
+- Feature: Image Logo and Main Text Slogan
+- Action: Informs the user about the purpose of the website. Contains a logo and text with the content.
+- Expected Result: The user initially understands that the website is about a Quiz.
 - Result: Operates as intended 
+<details><summary>Test User 1</summary>
+<img src="docs\testing_user_stories\testuser1.png">
+</details>
