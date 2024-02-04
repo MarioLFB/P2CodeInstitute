@@ -1,6 +1,8 @@
 // JavaScript code in script2.js: Adds an event listener to the 'Start Quiz' button. If the associated input field ('name') is filled,
 // it redirects to the 'puzzle.html' page; otherwise, it prompts the user to fill in their name before starting the quiz.
 
+/* jshint esversion: 6 */
+
 document.addEventListener('DOMContentLoaded', function () {
     const startButton = document.querySelector('#quizForm button');
 
@@ -9,9 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (nameInput.value.trim() !== '') {
             localStorage.setItem('playerName', nameInput.value);
-            window.location.href = 'puzzle.html'; 
+            window.location.href = 'puzzle.html';
         } else {
             alert('Please fill in your name before starting the quiz.');
         }
     });
 });
+
