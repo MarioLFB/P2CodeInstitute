@@ -250,11 +250,11 @@ The CSS Validation Service is used to check the validity of CSS code, and the te
 ### Accessibility
 The WAVE Web Accessibility Evaluation tool is used to assess web accessibility and identify potential issues, with all tests reported without problems.
 <details><summary>Cover Page</summary>
-<img src="">
+<img src="docs\tests\wave_index.png">
 </details>
 <details><summary>Main Page</summary>
-<img src="">
+<img src="docs\tests\wave_puzzle.png">
 </details>
 <details><summary>Informative Page</summary>
-<img src="">
+<img src="docs\tests\wave_informative.png">
 </details>
