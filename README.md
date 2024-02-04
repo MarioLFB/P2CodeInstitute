@@ -368,6 +368,14 @@ Action: The user is taken to the Information Page once they click on the 'Quiz' 
 Feature: Cover Page
 Action: As mentioned, the user, upon accessing the Cover Page, understands that the website is a quiz.
 - Result: Operates as intended 
-<details><summary>Test User 8</summary>
+<details><summary>Test User 9</summary>
 <img src="docs\testing_user_stories\testuser9.png">
+</details>
+
+10. As the Owner, it is expected that the User has quick access to the Quiz.
+Feature: Start Quiz Button
+Action: Few obstacles; on the Cover Page only the name is required, and clicking the Start Quiz button grants access to the Quiz.
+- Result: Operates as intended 
+<details><summary>Test User 10</summary>
+<img src="docs\testing_user_stories\testuser10.png">
 </details>
