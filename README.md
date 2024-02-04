@@ -271,6 +271,15 @@ The Lighthouse report is utilized to evaluate web page performance, and all test
 <img src="docs\tests\lighthouse_informativepage.png">
 </details>
 
+### JSHint
+Both files, script.js and script2.js, had a satisfactory result in JSHint validation:
+<details><summary>script.js</summary>
+<img src="docs\tests\jshint_file1.png">
+</details>
+<details><summary>script2.js</summary>
+<img src="docs\tests\jshint_file2.png">
+</details>
+
 ### Performing tests on various devices 
 The website underwent testing on the subsequent devices:
 - Iphone 15 Pro Max
@@ -284,12 +293,3 @@ The website underwent testing on the subsequent web browsers:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
-
-### JSHint
-Both files, script.js and script2.js, had a satisfactory result in JSHint validation:
-<details><summary>script.js</summary>
-<img src="docs\tests\jshint_file1.png">
-</details>
-<details><summary>script2.js</summary>
-<img src="docs\tests\jshint_file2.png">
-</details>
