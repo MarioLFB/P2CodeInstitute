@@ -379,3 +379,11 @@ Action: Few obstacles; on the Cover Page only the name is required, and clicking
 <details><summary>Test User 10</summary>
 <img src="docs\testing_user_stories\testuser10.png">
 </details>
+
+11. As the Owner, it is expected that the User completes the Quiz.
+Feature: Final Message: "Quiz Finished"
+Action: The user answers the 10 questions of the Quiz and receives the final message 'Quiz Finished' along with the Final Score.
+- Result: Operates as intended 
+<details><summary>Test User 11</summary>
+<img src="docs\testing_user_stories\testuser11.png">
+</details>
