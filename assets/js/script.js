@@ -1,32 +1,33 @@
-let question = [ // Array of questions, alternatives and answers
+/* jshint esversion: 6 */
 
+let question = [ // Array of questions, alternatives and answers
     {
         title: "What is the capital of Japan?",
         alternatives: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
         answer: [2],
     },
-    {   
+    {
         title: "What element has the chemical symbol 'O'?",
         alternatives: ["Oxygen", "Gold", "Iron", "Carbon"],
         answer: [0],
     },
-    {   
+    {
         title: "In which country would you find the Eiffel Tower?",
         alternatives: ["Germany", "France", "Italy", "Spain"],
         answer: [1],
     },
-    {   
+    {
         title: "Who wrote the play 'Romeo and Juliet'?",
         alternatives: ["Charles Dickens", "William Shakespeare", "Jane Austen", "F. Scott Fitzgerald"],
         answer: [1],
     },
-    {   
+    {
         title: "What is the largest planet in our solar system?",
-        alternatives: ["Earth", "Mars", "Jupiter", "Saturn"], 
+        alternatives: ["Earth", "Mars", "Jupiter", "Saturn"],
         answer: [2],
     },
-    {   
-        title: "Who is known as the 'King of Pop'?", 
+    {
+        title: "Who is known as the 'King of Pop'?",
         alternatives: ["Madonna", "Elvis Presley", "Michael Jackson", "Beyoncé"],
         answer: [2],
     },
@@ -45,19 +46,19 @@ let question = [ // Array of questions, alternatives and answers
         alternatives: ["Mark Zuckerberg", "Steve Jobs", "Paul Allen", "Larry Page"],
         answer: [2],
     },
-    { 
+    {
         title: "Which gas do plants primarily absorb during photosynthesis?",
         alternatives: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"],
         answer: [2],
     }
-    ]
+];
 
-    document.addEventListener('DOMContentLoaded', function () { // Function to display the player name
-        let playerName = localStorage.getItem('playerName'); 
-        if (playerName) {
-            document.getElementById('player-name').textContent = playerName;
-        }
-    });
+document.addEventListener('DOMContentLoaded', function () { // Function to display the player name
+    let playerName = localStorage.getItem('playerName');
+    if (playerName) {
+        document.getElementById('player-name').textContent = playerName;
+    }
+});
 
 function start() { // Function to start the quiz
     this.totalScore = 0;
@@ -88,7 +89,7 @@ function nextQuestion() { // Function to go to the next question
     this.currentQuestion++;
     if (this.currentQuestion === question.length) {
         endQuiz(); // Function to end the quiz
-        return; 
+        return;
     }
     displayQuestion(question[this.currentQuestion]);
 }
@@ -121,10 +122,8 @@ function displayScore() { // Function to display the score
     divTitle.textContent = "Your score is: " + this.totalScore;
 }
 
-document.getElementById('restart').addEventListener('click', function() { // Function to restart the quiz
+document.getElementById('restart').addEventListener('click', function () { // Function to restart the quiz
     location.reload();
 });
 
-
 start(); // Function to start the quiz
-
