@@ -405,11 +405,11 @@ The website underwent testing on the subsequent web browsers:
 
 ## Bugs
 
-- Bug: Clicking on an alternative increases the score even if the answer is incorrect.
+1. Bug: Clicking on an alternative increases the score even if the answer is incorrect.
 - Fix: Added a check to ensure that the score is incremented only for correct answers.
 
-- Bug: The final quiz message always displays the score as 0, regardless of correct answers given.
+2. Bug: The final quiz message always displays the score as 0, regardless of correct answers given.
 - Fix: Adjusted the final score calculation to accurately reflect correct answers.
 
-- Bug: After restarting the quiz, the alternatives remain hidden.
+3. Bug: After restarting the quiz, the alternatives remain hidden.
 - Fix: Added code to re-display alternatives upon restarting the quiz.
