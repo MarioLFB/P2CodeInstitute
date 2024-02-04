@@ -36,7 +36,6 @@
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
