@@ -29,9 +29,10 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
+    5. [JSHint](#JSHint)
+    6. [Device testing](#performing-tests-on-various-devices)
+    7. [Browser compatibility](#browser-compatability)
+    8. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -293,3 +294,10 @@ The website underwent testing on the subsequent web browsers:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
+
+### Testing user stories
+1. First time accessing, the User has clear information on the purpose of the Website.
+- Feature: Map and Footer
+- Action: Go to the Contact anchor link
+- Expected Result: The user will be taken directly to the section.
+- Result: Operates as intended 
