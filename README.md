@@ -404,12 +404,35 @@ The website underwent testing on the subsequent web browsers:
 </details>
 
 ## Bugs
-
 1. Bug: Clicking on an alternative increases the score even if the answer is incorrect.
-- Fix: Added a check to ensure that the score is incremented only for correct answers.
-
+Fix: Added a check to ensure that the score is incremented only for correct answers.
 2. Bug: The final quiz message always displays the score as 0, regardless of correct answers given.
-- Fix: Adjusted the final score calculation to accurately reflect correct answers.
-
+Fix: Adjusted the final score calculation to accurately reflect correct answers.
 3. Bug: After restarting the quiz, the alternatives remain hidden.
-- Fix: Added code to re-display alternatives upon restarting the quiz.
+Fix: Added code to re-display alternatives upon restarting the quiz.
+
+##   Deployment
+The deployment of the website occurred through the utilization of GitHub Pages, involving the following procedures:
+1. Access the Settings tab within the GitHub repository.
+2. Choose the Pages option from the menu on the left.
+3. Set the source branch to 'master.'
+4. Following an automatic refresh of the webpage, a banner will appear at the top indicating: "Your site is live at https://mariolfb.github.io/P2CodeInstitute/.
+
+To fork the repository, proceed with the following steps:
+1. Visit the GitHub repository.
+2. Click on the "Fork" button located in the upper-right corner.
+
+To clone the repository, follow these steps:
+
+1. Visit the GitHub repository.
+2. Above the list of files, find the "Code" button and click on it.
+3. Choose your preferred cloning method - HTTPS, SSH, or Github CLI - and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Navigate to the directory where you want the cloned repository to be located.
+6. Type "git clone" and paste the copied URL from the clipboard (e.g., $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
+7. Press Enter to create your local clone.
+
+## Credits
+- The Logo used were artificially created. The Ideogram website was the tool used for the generation the Logo.
+- All codes were created individually, privately and personally. I utilized the guidance and modules provided by the Code Institute with the intention of avoiding external interference, putting into practice all the content covered only by the course up to this point.
+- The project was supervised and guided by Mentor Mo Shami.
