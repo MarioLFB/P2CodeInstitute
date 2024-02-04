@@ -352,7 +352,7 @@ Action: The user repeats the action, enters the name mandatory, and clicks the b
 Feature: Footer
 Action: The user, scrolling down to the bottom of the main page, will find information about the Quiz Developer.
 - Result: Operates as intended 
-<details><summary>Test User 6</summary>
+<details><summary>Test User 7</summary>
 <img src="docs\testing_user_stories\testuser7.png">
 </details>
 
@@ -360,6 +360,14 @@ Action: The user, scrolling down to the bottom of the main page, will find infor
 Feature: Quiz? link
 Action: The user is taken to the Information Page once they click on the 'Quiz' link in the Navigation Bar.
 - Result: Operates as intended 
-<details><summary>Test User 6</summary>
+<details><summary>Test User 8</summary>
 <img src="docs\testing_user_stories\testuser8.png">
+</details>
+
+9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+Feature: Cover Page
+Action: As mentioned, the user, upon accessing the Cover Page, understands that the website is a quiz.
+- Result: Operates as intended 
+<details><summary>Test User 8</summary>
+<img src="docs\testing_user_stories\testuser9.png">
 </details>
