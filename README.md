@@ -240,3 +240,9 @@ The W3C Validator is employed for validating web documents, and all HTML tests w
 <details><summary>Informative Page(Quiz?)</summary>
 <img src="docs\tests\quiz_w3_validator.png">
 </details>
+
+### CSS Validation
+The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
+<details><summary>style.css</summary>
+<img src="docs\tests\w3c_validation.png">
+</details>
