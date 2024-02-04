@@ -334,55 +334,61 @@ The website underwent testing on the subsequent web browsers:
 5. First time accessing, the user has the ability to complete and understand the Quiz, as well as interact with features such as the Score, Displayed Name, and Restarting the Quiz.
 - Feature: Question, Answer Options, Score Container, User Name Container, and Restart Button.
 - Action: The user initiates the quiz by selecting answers; experiences interactivity through the Score Container; interacts visually with the displayed name in the User Name Container; and can restart the Quiz at any time.
-Expected Result: The user has access to all functionalities of the Quiz.
+- Expected Result: The user has access to all functionalities of the Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 5</summary>
 <img src="docs\testing_user_stories\testuser5.png">
 </details>
 
 6. Returning to the Website, the User can access the quiz again.
-Feature: Initial page with User Name input and Start Quiz.
-Action: The user repeats the action, enters the name mandatory, and clicks the button to start the Quiz.
+- Feature: Initial page with User Name input and Start Quiz.
+- Action: The user repeats the action, enters the name mandatory, and clicks the button to start the Quiz.
+- Expected Result: The user enters the name and then clicks the button to access the Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 6</summary>
 <img src="docs\testing_user_stories\testuser6.png">
 </details>
 
 7. Returning to the Website, the User can find additional information such as who developed the Quiz.
-Feature: Footer
-Action: The user, scrolling down to the bottom of the main page, will find information about the Quiz Developer.
+- Feature: Footer
+- Action: The user, scrolling down to the bottom of the main page, will find information about the Quiz Developer.
+- Expected Result: The user reads the Footer area and finds information about the Quiz Developer.
 - Result: Operates as intended 
 <details><summary>Test User 7</summary>
 <img src="docs\testing_user_stories\testuser7.png">
 </details>
 
 8 Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
-Feature: Quiz? link
-Action: The user is taken to the Information Page once they click on the 'Quiz' link in the Navigation Bar.
+- Feature: Quiz? link
+- Action: The user is taken to the Information Page once they click on the 'Quiz' link in the Navigation Bar.
+- Expected Result: The user accesses the Quiz? Page, finding additional information about the usability of the Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 8</summary>
 <img src="docs\testing_user_stories\testuser8.png">
 </details>
 
 9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
-Feature: Cover Page
-Action: As mentioned, the user, upon accessing the Cover Page, understands that the website is a quiz.
+- Feature: Cover Page
+- Action: As mentioned, the user, upon accessing the Cover Page, understands that the website is a quiz.
+- Expected Result: The user quickly understands that the site is a Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 9</summary>
 <img src="docs\testing_user_stories\testuser9.png">
 </details>
 
 10. As the Owner, it is expected that the User has quick access to the Quiz.
-Feature: Start Quiz Button
-Action: Few obstacles; on the Cover Page only the name is required, and clicking the Start Quiz button grants access to the Quiz.
+- Feature: User Name and Start Quiz Button
+- Action: Few obstacles; on the Cover Page only the name is required, and clicking the Start Quiz button grants access to the Quiz.
+- Expected Result: The user quickly fills in the name and accesses the quiz immediately after clicking the Start Quiz button.
 - Result: Operates as intended 
 <details><summary>Test User 10</summary>
 <img src="docs\testing_user_stories\testuser10.png">
 </details>
 
 11. As the Owner, it is expected that the User completes the Quiz.
-Feature: Final Message: "Quiz Finished"
-Action: The user answers the 10 questions of the Quiz and receives the final message 'Quiz Finished' along with the Final Score.
+- Feature: Final Message: "Quiz Finished"
+- Action: The user answers the 10 questions of the Quiz and receives the final message 'Quiz Finished' along with the Final Score.
+- Expected Result: The user receives a message of "Quiz Finished" and the total score at the end of the Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 11</summary>
 <img src="docs\testing_user_stories\testuser11.png">
