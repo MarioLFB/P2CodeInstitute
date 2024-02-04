@@ -296,11 +296,20 @@ The website underwent testing on the subsequent web browsers:
 - Microsoft Egde
 
 ### Testing user stories
-1. First time accessing, the User has clear information on the purpose of the Website.
+1. First time accessing, the user has clear information on the purpose of the Website.
 - Feature: Image Logo and Main Text Slogan
 - Action: Informs the user about the purpose of the website. Contains a logo and text with the content.
 - Expected Result: The user initially understands that the website is about a Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 1</summary>
 <img src="docs\testing_user_stories\testuser1.png">
+</details>
+
+2. First time accessing, the User has an interactive experience where the name is requested for access.
+- Feature: User's input name
+- Action: Allows users to input their names to personalize their experience.
+- Expected Result: Users must mandatorily input their name within the designated container.
+- Result: Operates as intended 
+<details><summary>Test User 2</summary>
+<img src="docs\testing_user_stories\testuser2.png">
 </details>
