@@ -134,7 +134,7 @@ Footer with Developer's Name Information.
 6. Color Hex: [Link](https://color-hex.org/)
 
 ## Features
-The page consists of three page (Cover Page, Main Page and Informative Page), and thirteen features
+The page consists of three page (Cover Page, Main Page and Informative Page), and Twelve features
 
 ### Cover Page
 
