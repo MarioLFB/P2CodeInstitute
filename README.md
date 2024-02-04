@@ -227,3 +227,16 @@ The informational Text aims to provide the user with additional information abou
 <img src="docs\features\informativetext.png">
 </details>
 
+## Validation
+
+### HTML Validation
+The W3C Validator is employed for validating web documents, and all HTML tests were executed with significant performance.
+<details><summary>Cover Page</summary>
+<img src="docs\tests\index_w3_validator.png">
+</details>
+<details><summary>Main Page</summary>
+<img src="docs\tests\puzzle_w3_validator.png">
+</details>
+<details><summary>Informative Page(Quiz?)</summary>
+<img src="docs\tests\quiz_w3_validator.png">
+</details>
