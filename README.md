@@ -333,10 +333,26 @@ The website underwent testing on the subsequent web browsers:
 </details>
 
 5. First time accessing, the user has the ability to complete and understand the Quiz, as well as interact with features such as the Score, Displayed Name, and Restarting the Quiz.
-- Feature: Located in the central area of the Main Page, the user encounters the Quiz, consisting of 10 questions, each with four answer options. Interactive elements include a Score counter, user's name display, and a restart button.
+- Feature: Question, Answer Options, Score Container, User Name Container, and Restart Button.
 - Action: The user initiates the quiz by selecting answers; experiences interactivity through the Score Container; interacts visually with the displayed name in the User Name Container; and can restart the Quiz at any time.
 Expected Result: The user has access to all functionalities of the Quiz.
 - Result: Operates as intended 
 <details><summary>Test User 5</summary>
 <img src="docs\testing_user_stories\testuser5.png">
+</details>
+
+6. Returning to the Website, the User can access the quiz again.
+Feature: Initial page with User Name input and Start Quiz.
+Action: The user repeats the action, enters the name mandatory, and clicks the button to start the Quiz.
+- Result: Operates as intended 
+<details><summary>Test User 6</summary>
+<img src="docs\testing_user_stories\testuser6.png">
+</details>
+
+7. Returning to the Website, the User can find additional information such as who developed the Quiz.
+Feature: Footer
+Action: The user, scrolling down to the bottom of the main page, will find information about the Quiz Developer.
+- Result: Operates as intended 
+<details><summary>Test User 6</summary>
+<img src="docs\testing_user_stories\testuser7.png">
 </details>
