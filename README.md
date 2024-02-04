@@ -69,7 +69,7 @@
 1. First time accessing, the User has clear information on the purpose of the Website.
 2. First time accessing, the User has an interactive experience where the name is requested for access.
 3. First time accessing, the User finds a direct link to the Quiz.
-4. First time accessing, the user is able to view all the functionalities of the website, including the logo and the navigation bar at the top of the website with their respective links (Home and Quiz?).
+4. First time accessing, the user is able to view logo and the navigation bar at the top of the website with their respective links (Home and Quiz?).
 5. First time accessing, the user has the ability to complete and understand the Quiz, as well as interact with features such as the Score, Displayed Name, and Restarting the Quiz.
 
 #### Returning User
@@ -321,4 +321,13 @@ The website underwent testing on the subsequent web browsers:
 - Result: Operates as intended 
 <details><summary>Test User 3</summary>
 <img src="docs\testing_user_stories\testuser3.png">
+</details>
+
+4. First time accessing, the user is able to view logo and the navigation bar at the top of the website with their respective links (Home and Quiz?).
+- Feature: Navigation Bar (Home and Quiz?)
+- Action: At the top of the website, the user finds the navigation bar on the main page.
+- Expected Result: The user accesses the Home and 'Quiz?' links.
+- Result: Operates as intended 
+<details><summary>Test User 4</summary>
+<img src="docs\testing_user_stories\testuser4.png">
 </details>
