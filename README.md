@@ -313,3 +313,12 @@ The website underwent testing on the subsequent web browsers:
 <details><summary>Test User 2</summary>
 <img src="docs\testing_user_stories\testuser2.png">
 </details>
+
+3. First time accessing, the User finds a direct link to the Quiz.
+- Feature: Start Quiz Button
+- Action: After entering their name, the user finds a button below to start the Quiz.
+- Expected Result: The user clicks the button and is taken to the main page where the Quiz is located.
+- Result: Operates as intended 
+<details><summary>Test User 3</summary>
+<img src="docs\testing_user_stories\testuser3.png">
+</details>
