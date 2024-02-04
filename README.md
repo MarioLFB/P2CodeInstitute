@@ -358,7 +358,7 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser7.png">
 </details>
 
-8 Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+8. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
 - Feature: Quiz? link
 - Action: The user is taken to the Information Page once they click on the 'Quiz' link in the Navigation Bar.
 - Expected Result: The user accesses the Quiz? Page, finding additional information about the usability of the Quiz.
@@ -402,3 +402,14 @@ The website underwent testing on the subsequent web browsers:
 <details><summary>Test User 12</summary>
 <img src="docs\testing_user_stories\testuser12.png">
 </details>
+
+## Bugs
+
+- Bug: Clicking on an alternative increases the score even if the answer is incorrect.
+- Fix: Added a check to ensure that the score is incremented only for correct answers.
+
+- Bug: The final quiz message always displays the score as 0, regardless of correct answers given.
+- Fix: Adjusted the final score calculation to accurately reflect correct answers.
+
+- Bug: After restarting the quiz, the alternatives remain hidden.
+- Fix: Added code to re-display alternatives upon restarting the quiz.
