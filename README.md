@@ -270,3 +270,17 @@ The Lighthouse report is utilized to evaluate web page performance, and all test
 <details><summary>Informative Page</summary>
 <img src="docs\tests\lighthouse_informativepage.png">
 </details>
+
+### Performing tests on various devices 
+The website underwent testing on the subsequent devices:
+- Iphone 15 Pro Max
+- Iphone 14 
+- Samsung Galaxy S23
+
+The website was tested across various devices using Google Chrome Developer Tools.
+
+### Browser compatability
+The website underwent testing on the subsequent web browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
