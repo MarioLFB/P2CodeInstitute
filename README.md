@@ -355,3 +355,11 @@ Action: The user, scrolling down to the bottom of the main page, will find infor
 <details><summary>Test User 6</summary>
 <img src="docs\testing_user_stories\testuser7.png">
 </details>
+
+8 Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+Feature: Quiz? link
+Action: The user is taken to the Information Page once they click on the 'Quiz' link in the Navigation Bar.
+- Result: Operates as intended 
+<details><summary>Test User 6</summary>
+<img src="docs\testing_user_stories\testuser8.png">
+</details>
