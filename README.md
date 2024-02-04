@@ -75,14 +75,13 @@
 #### Returning User
 6. Returning to the Website, the User can access the quiz again.
 7. Returning to the Website, the User can find additional information such as who developed the Quiz.
-8. Returning to the Website, the User can find future updates and new Quizzes.
-9. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+8 Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
 
 #### Site Owner
-10. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
-11. As the Owner, it is expected that the User has quick access to the Quiz.
-12. As the Owner, it is expected that the User completes the Quiz.
-13. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+10. As the Owner, it is expected that the User has quick access to the Quiz.
+11. As the Owner, it is expected that the User completes the Quiz.
+12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 
 ## Design
 
@@ -142,7 +141,7 @@ The page consists of three page (Cover Page, Main Page and Informative Page), an
 
 - Image Logo and Main Text Slogan
 The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
-- User stories covered: 1, 8  and 10
+- User stories covered: 1 and 9
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="docs\features\logo_slogantext.png">
 </details>
@@ -160,7 +159,7 @@ The name must be filled in mandatory for access to the Quiz.
 
 - Start Quiz Button
 Button that takes you directly to the Main Page of the Quiz.
-- User stories covered: 3, 6 and 11
+- User stories covered: 3, 6 and 10
 <details><summary>Quiz Button</summary>
 <img src="docs\features\btn_startquiz.png">
 </details>
@@ -179,7 +178,7 @@ At the top of the website, the first thing seen by the user is the Logo and the 
 
 - Quiz: Questions and Answers
 The user indeed has the main experience, which is the Interactive Quiz. The question is displayed, followed by 4 answer options for the user to choose from.
-- User stories covered: 5 and 12
+- User stories covered: 5 and 11
 <details><summary>Quiz</summary>
 <img src="docs\features\quiz.png">
 </details>
@@ -223,7 +222,7 @@ The footer provides the user information about the Quiz developer's name.
 
 - Informational text
 The informational Text aims to provide the user with additional information about the importance and reasons why the Quiz can aid in cognitive and mental development.
-- User stories covered: 9 and 13
+- User stories covered: 8 and 12
 <details><summary>Informational Text</summary>
 <img src="docs\features\informativetext.png">
 </details>
