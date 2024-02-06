@@ -24,3 +24,15 @@ const photoComments = [
             photoComment.className = 'photo-comment';
             container.appendChild(photoComment);
           }
+
+          photoComment.src = links[i];
+          photoComment.alt = `Comment Photo ${i + 1}`;
+
+          if (i === links.length - 1) {
+            i = -1;
+          }
+        }, i * timeInterval);
+      }
+    }
+
+    createPhotoCarouselLoop(photoComments);
