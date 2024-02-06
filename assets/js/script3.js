@@ -17,5 +17,10 @@ const photoComments = [
 
     for (let i = 0; i < links.length; i++) {
         setTimeout(() => {
-          // Create or update the image
           let photoComment = container.querySelector('.photo-comment');
+
+          if (!photoComment) {
+            photoComment = document.createElement('img');
+            photoComment.className = 'photo-comment';
+            container.appendChild(photoComment);
+          }
