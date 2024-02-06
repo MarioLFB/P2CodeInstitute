@@ -13,4 +13,9 @@ const photoComments = [
 
   function createPhotoCarouselLoop(links) {
     const container = document.getElementById('coments');
-    const timeInterval = 2000; //
+    const timeInterval = 2000;
+
+    for (let i = 0; i < links.length; i++) {
+        setTimeout(() => {
+          // Create or update the image
+          let photoComment = container.querySelector('.photo-comment');
