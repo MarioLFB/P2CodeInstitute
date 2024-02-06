@@ -141,56 +141,72 @@ footer {
     margin-bottom: 25%;
 }
 
-/* FORM --------*/
 
+
+
+
+
+/* FORM --------*/
 #formh1 {
     font-family: 'Playfair Display', serif;
-    color: #e4e0e0;
+    color: #3f1d1d;
     font-size: 22px;
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
-
 }
 
-#quizForm {
+#form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e4e0e0;
-    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
 }
 
-#quizForm label {
-    font-size: 15px;
-    font-weight: 800;
+
+.field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
     font-family: 'Playfair Display', serif;
-    color: #752222;
-}
+    display: block;
+    font-size: 12px;
+    color: #3f1d1d;
+    font-weight: 700;
+  }
+  
+  .field input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
 
-#quizForm input,
-#quizForm textarea {
-    width: 250px;
-    padding: 3px;
-    border-radius: 5px;
-    border: none;
-}
-
-#quizForm button {
+  input[type="submit"] {
     background-color: #3f1d1d;
     color: #ffffff;
+    font-family: 'Playfair Display', serif;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
 
+  #message {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    height: 90px;
 }
-
-#quizForm button:hover {
-    background-color: #752222;
-}
-
 
 
 
