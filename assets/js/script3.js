@@ -10,3 +10,7 @@ const photoComments = [
     'assets/images/reviews/review09.png',
     'assets/images/reviews/review10.png',
   ];
+
+  function createPhotoCarouselLoop(links) {
+    const container = document.getElementById('coments');
+    const timeInterval = 2000; //
