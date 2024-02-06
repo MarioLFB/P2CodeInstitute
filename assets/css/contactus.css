@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    /*DEFAULT INITIAL SETTING*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    /*BACKGROUND COLOR FOR THE BODY*/
+    background-color: #BA4C4C;
+}
+
+#logoh2 { 
+    /*LOGO*/
+    color: #e4e0e0;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#menu {
+    /*NAV BAR COLOR*/
+    background-color: #3f1d1d;
+}
+
+header div ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Passion One', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+.question {
+    /*QUESTION*/
+    font-family: 'Passion One', sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #e4e0e0;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+#score {
+    background-color: #e4e0e0;
+    padding: 13px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    
+}
+
+#player-name {
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    background-color: #3f1d1d;
+    width: 200px;
+    height: 34px;
+}
+
+#restart {
+    /*RESTART BUTTON*/
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #292323;
+    color: #e4e0e0;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+}   
+
+#footer {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #e4e0e0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+footer {
+    /*FOOTER*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f1d1d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#logofrog {
+    /*LOGO FROG*/
+    height: 40px;
+}
+
+
+
+
+
+
+#coments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#coments h2 {
+    font-family: 'Playfair Display', serif;
+    color: #e4e0e0;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.photo-comment {
+    max-width: 99%; 
+    border-radius: 1%;
+    padding: 5px;
+    margin-bottom: 25%;
+}
+
+/* FORM --------*/
+
+#formh1 {
+    font-family: 'Playfair Display', serif;
+    color: #e4e0e0;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+#quizForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e4e0e0;
+    padding: 5px;
+}
+
+#quizForm label {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #752222;
+}
+
+#quizForm input,
+#quizForm textarea {
+    width: 250px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+#quizForm button {
+    background-color: #3f1d1d;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#quizForm button:hover {
+    background-color: #752222;
+}
+
+
+
+
+
+
