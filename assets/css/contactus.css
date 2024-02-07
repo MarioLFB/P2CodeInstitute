@@ -115,10 +115,6 @@ footer {
 }
 
 
-
-
-
-
 #coments {
     display: flex;
     flex-direction: column;
@@ -140,10 +136,6 @@ footer {
     padding: 5px;
     margin-bottom: 25%;
 }
-
-
-
-
 
 
 /* FORM --------*/
@@ -170,7 +162,6 @@ footer {
     margin-bottom: 10px;
   }
   
-
 
   .field input {
     display: block;
@@ -242,10 +233,28 @@ footer {
 
 footer {
     position: relative;
-
+}
 }
 
+/*MEDIA QUERY--------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+
+    .field input {
+        padding: 3px;
+        font-size: 25px;
+      }
+
+
+    #message {
+        font-size: 25px;
+        height: 200px;
+    }
+
+    a {
+        font-size: 40px;
+    }
+    
 }
-
-
 
