@@ -307,7 +307,7 @@ The WAVE Web Accessibility Evaluation tool is used to assess web accessibility a
 <img src="docs\tests\wave_contactus.png">
 </details>
 <details><summary>404 Page</summary>
-<img src="docs\tests\page404_w3_validator.png">
+<img src="docs\tests\wave_page404.png">
 </details>
 
 ### Performance
@@ -320,6 +320,12 @@ The Lighthouse report is utilized to evaluate web page performance, and all test
 </details>
 <details><summary>Informative Page</summary>
 <img src="docs\tests\lighthouse_informativepage.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs\tests\lighthouse_contactus.png">
+</details>
+<details><summary>404 Page</summary>
+<img src="docs\tests\lighthouse_page404.png">
 </details>
 
 ### JSHint
