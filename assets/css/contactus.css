@@ -231,6 +231,20 @@ footer {
         height: 40px;
         margin-bottom: 10px;
       }
+
+      .photo-comment {
+        margin-bottom: 3%;
+      }
+
+      #coments h2 {
+        font-size: 35px;
+}
+
+footer {
+    position: relative;
+
+}
+
 }
 
 
