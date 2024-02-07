@@ -276,11 +276,20 @@ The W3C Validator is employed for validating web documents, and all HTML tests w
 <details><summary>Informative Page(Quiz?)</summary>
 <img src="docs\tests\quiz_w3_validator.png">
 </details>
+<details><summary>Contact Us</summary>
+<img src="docs\tests\contactus_w3_validator.png">
+</details>
+<details><summary>404 Page</summary>
+<img src="docs\tests\page404_w3_validator.png">
+</details>
 
 ### CSS Validation
 The CSS Validation Service is used to check the validity of CSS code, and the test was conducted with no reported errors.
 <details><summary>style.css</summary>
 <img src="docs\tests\w3c_validation.png">
+</details>
+<details><summary>contactus.css</summary>
+<img src="docs\tests\contactus_w3_validator.png">
 </details>
 
 ### Accessibility
@@ -293,6 +302,12 @@ The WAVE Web Accessibility Evaluation tool is used to assess web accessibility a
 </details>
 <details><summary>Informative Page</summary>
 <img src="docs\tests\wave_informative.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs\tests\wave_contactus.png">
+</details>
+<details><summary>404 Page</summary>
+<img src="docs\tests\page404_w3_validator.png">
 </details>
 
 ### Performance
