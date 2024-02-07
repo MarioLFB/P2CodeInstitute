@@ -105,6 +105,8 @@ The website Structure:
 - Main Page with the Quiz content: Website Name Logo, navigation menu (Home and Quiz?), quiz game section (score information, user name, and restart button), and
 Footer with Developer's Name Information.
 - Information Page (Quiz?): Navigation menu (Home and Quiz?) followed by informative text on the theme "Mental Agility", and Footer with Developer's Name Information.
+- Contact Us: The first container contains a message form connected with EmailJS using the API method, and the second container contains an image loop related to User Reviews.
+- Page 404: Page with a central container displaying the message "404 PAGE NOT FOUND".
 
 #### Wireframes
 <details><summary>Cover Page</summary>
@@ -117,6 +119,14 @@ Footer with Developer's Name Information.
 
 <details><summary>Informative Page</summary>
 <img src="docs\wireframe\informativepage.png">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="docs\wireframe\contactus.png">
+</details>
+
+<details><summary>Page 404</summary>
+<img src="docs\wireframe\page404.png">
 </details>
 
 ## Technologies Used
