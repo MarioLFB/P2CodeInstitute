@@ -241,12 +241,10 @@ footer {
 
 @media screen and (min-width: 1200px) {
 
-
     .field input {
         padding: 3px;
         font-size: 25px;
       }
-
 
     #message {
         font-size: 25px;
