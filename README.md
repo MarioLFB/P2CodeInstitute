@@ -223,7 +223,7 @@ The Restart Button allows the user to interactively restart the Quiz at any time
 Informs the user of the quiz completion with an interactive message and final score.
 - User stories covered: 5
 <details><summary>Final Message</summary>
-<img src="docs\features\quizfinished.png">
+<img src="docs\features\quizfinished01.png">
 </details>
 
 - Footer 
