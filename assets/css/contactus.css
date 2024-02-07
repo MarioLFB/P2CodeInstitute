@@ -134,7 +134,7 @@ footer {
     max-width: 99%; 
     border-radius: 1%;
     padding: 5px;
-    margin-bottom: 25%;
+    margin-bottom: 35%;
 }
 
 
@@ -231,9 +231,10 @@ footer {
         font-size: 35px;
 }
 
-footer {
-    position: relative;
+.photo-comment {
+    margin-bottom: 14%;
 }
+
 }
 
 /*MEDIA QUERY--------------------------------------------------------------------------------*/
@@ -254,6 +255,11 @@ footer {
 
     a {
         font-size: 40px;
+    }
+
+    .photo-comment {
+        margin-bottom: 10%;
+        width: 50%;
     }
     
 }
