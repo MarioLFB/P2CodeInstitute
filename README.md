@@ -483,6 +483,24 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser12.png">
 </details>
 
+15. As the Owner, it is expected that the User contacts us and leaves a positive review through our contact form.
+- Feature: Form (Contact Us)
+- Action: The user clicks on the Contact Us link, views the contact form in the central area of the site, fills it out, and clicks on the 'Send Email' button.
+- Expected Result: The user accesses the contact form within the Contact Us page and reaches out to the website developer.
+- Result: Operates as intended 
+<details><summary>Test User 15</summary>
+<img src="docs\testing_user_stories\testuser15.png">
+</details>
+
+16. As the Owner, it is expected that the User be directed to the 404 page in case any error occurs, ensuring that the user stays on the website.
+- Feature: 404 Page
+- Action: If the user encounters a broken link or non-existent page, they are directed to the 404 error page.
+- Expected Result: The user is correctly redirected to the 404 error page and remains connected to the website.
+- Result: Operates as intended 
+<details><summary>Test User 16</summary>
+<img src="docs\testing_user_stories\testuser16.png">
+</details>
+
 ## Bugs
 1. Bug: Clicking on an alternative increases the score even if the answer is incorrect.
 Fix: Added a check to ensure that the score is incremented only for correct answers.
@@ -514,5 +532,6 @@ To clone the repository, follow these steps:
 
 ## Credits
 - The Logo used were artificially created. The Ideogram website was the tool used for the generation the Logo.
+- The JavaScript code within the contactus.js file, regarding the Contact Form (specifically for the automatic email message sending), was created using the EmailJS tool's API.
 - All codes were created individually, privately and personally. I utilized the guidance and modules provided by the Code Institute with the intention of avoiding external interference, putting into practice all the content covered only by the course up to this point.
 - The project was supervised and guided by Mentor Mo Shami.
