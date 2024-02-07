@@ -240,6 +240,29 @@ The informational Text aims to provide the user with additional information abou
 <img src="docs\features\informativetext.png">
 </details>
 
+### Contact US
+- Message Form
+In the first container, a message form created using EmailJS is found. It allows direct contact between the User and the Developer through a text message which is forwarded to the designated email. The form consists of: Name, Email, Message, and Send Button (Send Email).
+- User stories covered: .. and ..
+<details><summary>Form</summary>
+<img src="docs\features\form.png">
+</details>
+
+- User Reviews
+Displayed to the user in an automatic carousel format, a review every 8 seconds in a loop.
+- User stories covered: .. and ..
+<details><summary>Reviews</summary>
+<img src="docs\features\reviewsloop.png">
+</details>
+
+### 404 Page
+- 404 Page Image
+ 404 page indicates that the requested URL was not found on the server. Its purpose is to inform the user of the error and often includes navigation options or a search feature to help find the desired content. Customization aims to improve the user experience despite the encountered error.
+- User stories covered: .. and ..
+<details><summary>404 Page</summary>
+<img src="docs\features\page404.png">
+</details>
+
 ## Validation
 
 ### HTML Validation
