@@ -188,7 +188,7 @@ At the top of the website, the first thing seen by the user is the Logo and the 
 <img src="docs\features\logotext.png">
 </details>
 <details><summary>Nav Bar</summary>
-<img src="docs\features\navbar.png">
+<img src="docs\features\navbar01.png">
 </details>
 
 - Quiz: Questions and Answers
