@@ -61,6 +61,7 @@
 - Quality content presentation and visually appealing design adaptable to different screen sizes.
 - Concise and easily readable content for a quick understanding of the topics covered in the quizzes.
 - Accessibility, ensuring that all users can fully enjoy the general knowledge quiz platform.
+- The user can contact the Quiz Developer directly via text message
 
 ### User Stories
 
@@ -74,7 +75,9 @@
 #### Returning User
 6. Returning to the Website, the User can access the quiz again.
 7. Returning to the Website, the User can find additional information such as who developed the Quiz.
-8 Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+8. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
+.. Returning to the Website, the User can contact the Quiz Developer through a text message located on the Contact Us Page.
+.. Returning to the Website, the User can find reviews from other users in looping mode, where every 8 seconds a different message is displayed automatically.
 
 #### Site Owner
 9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
@@ -142,9 +145,10 @@ Footer with Developer's Name Information.
 4. GitHub: [Link](https://github.com/)
 5. Draw.io: [Link](https://https://app.diagrams.net/)
 6. Color Hex: [Link](https://color-hex.org/)
+7. EmailJS: [Link](https://emailjs.com/)
 
 ## Features
-The page consists of three page (Cover Page, Main Page and Informative Page), and Twelve features
+Consists of 4 pages (Cover Page, Main Page, Informative Page, and Contact Us), an additional 404 error page, and 14 features.
 
 ### Cover Page
 
