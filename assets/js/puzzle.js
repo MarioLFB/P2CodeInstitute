@@ -71,7 +71,7 @@ function start() { // Function to start the quiz
         });
     });
 
-    this.displayScore();
+    displayScore(); 
     displayQuestion(question[this.currentQuestion]);
 }
 
@@ -112,7 +112,7 @@ function checkAnswer(q, user) { // Function to check if the answer is correct or
     } else {
         console.log("Wrong");
     }
-    this.displayScore();
+    displayScore();
     nextQuestion();
     displayQuestion(question[this.currentQuestion]);
 }

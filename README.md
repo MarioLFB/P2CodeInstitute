@@ -330,10 +330,10 @@ The Lighthouse report is utilized to evaluate web page performance, and all test
 
 ### JSHint
 Both files, script.js and script2.js, had a satisfactory result in JSHint validation:
-<details><summary>script.js</summary>
+<details><summary>puzzle.js</summary>
 <img src="docs\tests\jshint_file1.png">
 </details>
-<details><summary>script2.js</summary>
+<details><summary>coverpage.js</summary>
 <img src="docs\tests\jshint_file2.png">
 </details>
 
