@@ -76,14 +76,16 @@
 6. Returning to the Website, the User can access the quiz again.
 7. Returning to the Website, the User can find additional information such as who developed the Quiz.
 8. Returning to the Website, the User can find a brief explanation of the Quiz's functionality in terms of cognitive enhancement.
-.. Returning to the Website, the User can contact the Quiz Developer through a text message located on the Contact Us Page.
-.. Returning to the Website, the User can find reviews from other users in looping mode, where every 8 seconds a different message is displayed automatically.
+9. Returning to the Website, the User can contact the Quiz Developer through a text message located on the Contact Us Page.
+10. Returning to the Website, the User can find reviews from other users in looping mode, where every 8 seconds a different message is displayed automatically.
 
 #### Site Owner
-9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
-10. As the Owner, it is expected that the User has quick access to the Quiz.
-11. As the Owner, it is expected that the User completes the Quiz.
-12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+11. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+12. As the Owner, it is expected that the User has quick access to the Quiz.
+13. As the Owner, it is expected that the User completes the Quiz.
+14. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+15. As the Owner, it is expected that the User contacts us and leaves a positive review through our contact form.
+16. As the Owner, it is expected that the User be directed to the 404 page in case any error occurs, ensuring that the user stays on the website.
 
 ## Design
 
@@ -154,7 +156,7 @@ Consists of 4 pages (Cover Page, Main Page, Informative Page, and Contact Us), a
 
 - Image Logo and Main Text Slogan
 The Logo is the first thing visible when accessing the Cover Page, providing visual information to the user about the purpose of the Website, which is the Quiz. The Main Text Slogan reinforces the site's purpose to persuade the User to access the Quiz.
-- User stories covered: 1 and 9
+- User stories covered: 1 and 11
 <details><summary>Image Logo and Main Text Slogan</summary>
 <img src="docs\features\logo_slogantext.png">
 </details>
@@ -172,7 +174,7 @@ The name must be filled in mandatory for access to the Quiz.
 
 - Start Quiz Button
 Button that takes you directly to the Main Page of the Quiz.
-- User stories covered: 3, 6 and 10
+- User stories covered: 3, 6 and 14
 <details><summary>Quiz Button</summary>
 <img src="docs\features\btn_startquiz.png">
 </details>
@@ -191,7 +193,7 @@ At the top of the website, the first thing seen by the user is the Logo and the 
 
 - Quiz: Questions and Answers
 The user indeed has the main experience, which is the Interactive Quiz. The question is displayed, followed by 4 answer options for the user to choose from.
-- User stories covered: 5 and 11
+- User stories covered: 5 and 13
 <details><summary>Quiz</summary>
 <img src="docs\features\quiz.png">
 </details>
@@ -235,7 +237,7 @@ The footer provides the user information about the Quiz developer's name.
 
 - Informational text
 The informational Text aims to provide the user with additional information about the importance and reasons why the Quiz can aid in cognitive and mental development.
-- User stories covered: 8 and 12
+- User stories covered: 8 and 14
 <details><summary>Informational Text</summary>
 <img src="docs\features\informativetext.png">
 </details>
@@ -243,14 +245,14 @@ The informational Text aims to provide the user with additional information abou
 ### Contact US
 - Message Form
 In the first container, a message form created using EmailJS is found. It allows direct contact between the User and the Developer through a text message which is forwarded to the designated email. The form consists of: Name, Email, Message, and Send Button (Send Email).
-- User stories covered: .. and ..
+- User stories covered: 9 and 15
 <details><summary>Form</summary>
 <img src="docs\features\form.png">
 </details>
 
 - User Reviews
 Displayed to the user in an automatic carousel format, a review every 8 seconds in a loop.
-- User stories covered: .. and ..
+- User stories covered: 10
 <details><summary>Reviews</summary>
 <img src="docs\features\reviewsloop.png">
 </details>
@@ -258,7 +260,7 @@ Displayed to the user in an automatic carousel format, a review every 8 seconds 
 ### 404 Page
 - 404 Page Image
  404 page indicates that the requested URL was not found on the server. Its purpose is to inform the user of the error and often includes navigation options or a search feature to help find the desired content. Customization aims to improve the user experience despite the encountered error.
-- User stories covered: .. and ..
+- User stories covered: 16
 <details><summary>404 Page</summary>
 <img src="docs\features\page404.png">
 </details>
@@ -427,39 +429,57 @@ The website underwent testing on the subsequent web browsers:
 <img src="docs\testing_user_stories\testuser8.png">
 </details>
 
-9. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
+9. Returning to the Website, the User can contact the Quiz Developer through a text message located on the Contact Us Page.
+- Feature: Form (Contact Us)
+- Action: On the top navigation bar of the website, users can locate the 'Contact Us' link. In the center of the page, the Contact Form is situated, comprising fields for Name, Email, and Message. Once all the fields are filled out, the user finds the 'Send Email' button, which, through the EmailJS platform (API), sends the message directly to the email previously registered within the mentioned platform. A confirmation message is then displayed, confirming that the message has been successfully sent.
+- Expected Result: The user accesses the 'Contact Us' page and reaches out by leaving a message for the website developer.
+- Result: Operates as intended 
+<details><summary>Test User 9</summary>
+<img src="docs\testing_user_stories\testuser13.png">
+</details>
+
+10. Returning to the Website, the User can find reviews from other users in looping mode, where every 8 seconds a different message is displayed automatically.
+- Feature: Looping Reviews
+- Action: Under the 'Feature: Form (Contact Us)' section, within the Contact Us page, users scroll down to the bottom of the page and will find the container containing reviews from other users. Every 8 seconds, a different review is automatically displayed in a looping sequence.
+- Expected Result: The user reads the previous reviews made by other users.
+- Result: Operates as intended 
+<details><summary>Test User 10</summary>
+<img src="docs\testing_user_stories\testuser14.png">
+</details>
+
+11. As the Owner, it is expected that the User has a clear understanding of the purpose of the Website.
 - Feature: Cover Page
 - Action: As mentioned, the user, upon accessing the Cover Page, understands that the website is a quiz.
 - Expected Result: The user quickly understands that the site is a Quiz.
 - Result: Operates as intended 
-<details><summary>Test User 9</summary>
+<details><summary>Test User 11</summary>
 <img src="docs\testing_user_stories\testuser9.png">
 </details>
 
-10. As the Owner, it is expected that the User has quick access to the Quiz.
+12. As the Owner, it is expected that the User has quick access to the Quiz.
 - Feature: User Name and Start Quiz Button
 - Action: Few obstacles; on the Cover Page only the name is required, and clicking the Start Quiz button grants access to the Quiz.
 - Expected Result: The user quickly fills in the name and accesses the quiz immediately after clicking the Start Quiz button.
 - Result: Operates as intended 
-<details><summary>Test User 10</summary>
+<details><summary>Test User 12</summary>
 <img src="docs\testing_user_stories\testuser10.png">
 </details>
 
-11. As the Owner, it is expected that the User completes the Quiz.
+13. As the Owner, it is expected that the User completes the Quiz.
 - Feature: Final Message: "Quiz Finished"
 - Action: The user answers the 10 questions of the Quiz and receives the final message 'Quiz Finished' along with the Final Score.
 - Expected Result: The user receives a message of "Quiz Finished" and the total score at the end of the Quiz.
 - Result: Operates as intended 
-<details><summary>Test User 11</summary>
+<details><summary>Test User 13</summary>
 <img src="docs\testing_user_stories\testuser11.png">
 </details>
 
-12. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
+14. As the Owner, it is expected that the User accesses the additional information which has a brief explanation about the use of the Quiz.
 - Feature: Information Text ('Quiz?' Page)
 - Action: The user clicks on the 'Quiz?' link and immediately gains access to the informative text regarding the usability of the Quiz.
 - Expected Result: The user gains a clear understanding of the importance of the quiz for cognitive and mental development.
 - Result: Operates as intended 
-<details><summary>Test User 12</summary>
+<details><summary>Test User 14</summary>
 <img src="docs\testing_user_stories\testuser12.png">
 </details>
 
