@@ -170,14 +170,8 @@ footer {
     margin-bottom: 10px;
   }
   
-  .field label {
-    font-family: 'Playfair Display', serif;
-    display: block;
-    font-size: 12px;
-    color: #3f1d1d;
-    font-weight: 700;
-  }
-  
+
+
   .field input {
     display: block;
     width: 100%;
@@ -208,7 +202,36 @@ footer {
     height: 90px;
 }
 
+/*MEDIA QUERY--------------------------------------------------------------------------------*/
+@media screen and (min-width: 767px) {
+    
+    #formh1 {
+        font-size: 40px;
+    }
 
+    #form {
+        margin-top: 1%;
+    }
+
+    .field input {
+        padding: 2px;
+        font-size: 20px;
+      }
+
+      #message {
+        padding: 5px;
+        font-size: 20px;
+        height: 120px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 0px;
+        font-size: 18px;
+        width: 15%;
+        height: 40px;
+        margin-bottom: 10px;
+      }
+}
 
 
 
