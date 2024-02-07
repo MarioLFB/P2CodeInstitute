@@ -336,6 +336,9 @@ Both files, script.js and script2.js, had a satisfactory result in JSHint valida
 <details><summary>coverpage.js</summary>
 <img src="docs\tests\jshint_file2.png">
 </details>
+<details><summary>contactus.js</summary>
+<img src="docs\tests\jshint_contactus.png">
+</details>
 
 ### Performing tests on various devices 
 The website underwent testing on the subsequent devices:
