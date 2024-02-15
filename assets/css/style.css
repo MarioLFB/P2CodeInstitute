@@ -1,338 +1,327 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 * {
-    /*DEFAULT INITIAL SETTING*/
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-body {
-    /*BACKGROUND COLOR FOR THE BODY*/
-    background-color: #BA4C4C;
+  /*DEFAULT INITIAL SETTING*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#logoh2 { 
-    /*LOGO*/
-    color: #e4e0e0;
-    font-size: 50px;
-    font-family: 'Anton', sans-serif;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 10px;
+body {
+  /*BACKGROUND COLOR FOR THE BODY*/
+  background-color: #ba4c4c;
+}
+
+#logoh2 {
+  /*LOGO*/
+  color: #e4e0e0;
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
 }
 
 #menu {
-    /*NAV BAR COLOR*/
-    background-color: #3f1d1d;
+  /*NAV BAR COLOR*/
+  background-color: #3f1d1d;
 }
 
 #title {
-    /*TITLE*/
-    font-family: 'Concert One', sans-serif;
-    color: #e4e0e0;
-    font-size: 20px;
-    text-transform: uppercase;
-    background-color: #3f1d1d;
-    text-align: center;
-    padding: 10px;
-    height: 85px;
+  /*TITLE*/
+  font-family: "Concert One", sans-serif;
+  color: #e4e0e0;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #3f1d1d;
+  text-align: center;
+  padding: 10px;
+  height: 85px;
 }
 
 header div ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    font-family: 'Passion One', sans-serif;
-    color: #fff;
-    font-size: 25px;
+  text-decoration: none;
+  font-family: "Passion One", sans-serif;
+  color: #fff;
+  font-size: 25px;
 }
 
 .mainsection {
-    /*MAIN SECTION*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+  /*MAIN SECTION*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .mainsection ul {
-    /*UL FOR THE MAIN SECTION*/
-    width: 250px;
+  /*UL FOR THE MAIN SECTION*/
+  width: 250px;
 }
 
 .question {
-    /*QUESTION*/
-    font-family: 'Passion One', sans-serif;
-    list-style-type: none;
-    font-size: 20px;
-    background-color: #e4e0e0;
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
+  /*QUESTION*/
+  font-family: "Passion One", sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  background-color: #e4e0e0;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
 }
 
-
 #score {
-    background-color: #e4e0e0;
-    padding: 13px;
-    width: 150px;
-    text-align: center;
-    font-family: 'Concert One', sans-serif;
-    
+  background-color: #e4e0e0;
+  padding: 13px;
+  width: 150px;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
 }
 
 #player-name {
-    font-family: 'Anton', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    font-size: 22px;
-    background-color: #3f1d1d;
-    width: 200px;
-    height: 34px;
+  font-family: "Anton", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  background-color: #3f1d1d;
+  width: 200px;
+  height: 34px;
 }
 
 #restart {
-    /*RESTART BUTTON*/
-    font-size: 18px;
-    text-transform: uppercase;
-    border: none;
-    background-color: #292323;
-    color: #e4e0e0;
-    padding: 10px 20px;
-    width: 100px;
-    text-align: center;
-    font-family: 'Concert One', sans-serif;
-}   
+  /*RESTART BUTTON*/
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #292323;
+  color: #e4e0e0;
+  padding: 10px 20px;
+  width: 100px;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+}
 
 #footer {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    color: #e4e0e0;
-    margin-bottom: 5px;
-    margin-top: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #e4e0e0;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 footer {
-    /*FOOTER*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #3f1d1d;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  /*FOOTER*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3f1d1d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #logofrog {
-    /*LOGO FROG*/
-    height: 40px;
+  /*LOGO FROG*/
+  height: 40px;
 }
 
 /*---------------------------------------------------------------COVER PAGE (index.html)-----------------------------------------------------------------------------------------*/
 #wrapper {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    text-align: center;
-    margin-top: 30%;
-    background-color: rgb(241, 245, 245);
-    padding: 10px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30%;
+  background-color: rgb(241, 245, 245);
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #coverlogo {
-    height: 200px;
+  height: 200px;
 }
 
 #h1cover {
-    font-family: 'Anton', sans-serif;
-    color: #080808;
-    font-size: 25px;
-    text-align: center;
+  font-family: "Anton", sans-serif;
+  color: #080808;
+  font-size: 25px;
+  text-align: center;
 }
 
 #h2cover {
-    font-family: 'Playfair Display', serif;
-    color: #000000;
-    font-size: 20px;
-    padding: 30px;
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  font-size: 20px;
+  padding: 30px;
 }
 
 #name {
-    width: 90%;
-    padding: 4px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  width: 90%;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 label[for="name"] {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    color: #752222;
-    text-transform: uppercase;
-    font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #752222;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 #name::placeholder {
-    font-size: 12px;
-    color: #be1919;
-    text-align: center;
+  font-size: 12px;
+  color: #be1919;
+  text-align: center;
 }
 
 #quizForm button {
-    background-color: #093b0a; 
-    font-size: 25px;
-    color: white;
-    padding: 10px;
-    border: 0.1px solid #000000;
+  background-color: #093b0a;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  border: 0.1px solid #000000;
 }
 
 /*---------------------------------------------------------------QUIZ PAGE (quiz.html)-----------------------------------------------------------------------------------------*/
- 
+
 #quizpage {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 15px solid #BA4C4C;
-    padding: 5px;
-    
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 15px solid #ba4c4c;
+  padding: 5px;
 }
 
 #quizh1 {
-    font-family: 'Playfair Display', serif;
-    color: #3f1d1d;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
- }
-
- #quizp {
-    font-family: 'Passion One', sans-serif;
-    color: #000000;
-    text-align: center;
-    font-size: 15px;
- }
-
-
-
- /*---------------------------------------PAGE 404-----------------------------*/
-
- #error404 {
-    max-width: 80%;
-    margin-left: 10%;
-    padding: 1%;
-    margin-top: 20%;
-   
+  font-family: "Playfair Display", serif;
+  color: #3f1d1d;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+#quizp {
+  font-family: "Passion One", sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*---------------------------------------PAGE 404-----------------------------*/
+
+#error404 {
+  max-width: 80%;
+  margin-left: 10%;
+  padding: 1%;
+  margin-top: 20%;
+}
 
 /*--------------------------------------------------------MEDIA QUERY- 767px----------------------------------------------------------------------------------------*/
 /*------------------------------------------------------COVER PAGE (index.html)----------------------------------------------------------------------------------------*/
 @media screen and (min-width: 767px) {
-#wrapper {
+  #wrapper {
     margin-top: 10%;
-    background-color: #BA4C4C;;
-}
+    background-color: #ba4c4c;
+  }
 
-#h1cover {
+  #h1cover {
     font-size: 60px;
-}
+  }
 
-#h2cover {
+  #h2cover {
     font-size: 50px;
-}
+  }
 
-label[for="name"] {
+  label[for="name"] {
     color: #fff;
-    font-size:30px;
-}
+    font-size: 30px;
+  }
 
-#name::placeholder {
+  #name::placeholder {
     font-size: 17px;
-}
+  }
 
-#quizForm button {
+  #quizForm button {
     margin-top: 10px;
-}
+  }
 
-.question:hover {
+  .question:hover {
     background-color: #752222;
     color: #ffffff;
     cursor: pointer;
-}
+  }
 
-
-#error404 {
+  #error404 {
     padding: 1%;
     margin-top: 1%;
-}
-
+  }
 }
 /*-----------------------------------------------------------MEDIA QUERY- 767px----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------PUZZLE PAGE (puzzle.html)----------------------------------------------------------------------------------------*/
 @media screen and (min-width: 767px) {
-
-#title {
+  #title {
     font-size: 25px;
-}
+  }
 
-.question {
+  .question {
     font-size: 25px;
-}
+  }
 
-#score {
+  #score {
     font-size: 15px;
     text-transform: uppercase;
-}
+  }
 
-#player-name {
+  #player-name {
     font-size: 20px;
     height: 30px;
     width: 15%;
-}
+  }
 
-a {
+  a {
     font-size: 40px;
-}
+  }
 }
 
 /*---------------------------------------------------------------MEDIA QUERY- 767px----------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------QUIZ? PAGE (quiz.html)----------------------------------------------------------------------------------------*/
 @media screen and (min-width: 767px) {
-#quizpage {
+  #quizpage {
     background-color: white;
-    border: 100px solid #BA4C4C;
+    border: 100px solid #ba4c4c;
     padding: 50px;
-}
+  }
 
-#quizh1 {
+  #quizh1 {
     font-size: 80px;
     color: #3f1d1d;
-}
+  }
 
-#quizp {
+  #quizp {
     font-size: 35px;
     text-align: center;
-}
-
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    #error404 {
-        padding: 1%;
-        margin-top: 1%;
-        margin-left: 21%;
-    }
-    }
+  #error404 {
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 21%;
+  }
+}
