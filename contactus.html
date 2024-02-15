@@ -1,70 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="FlashFacts is a quiz with a diverse theme.">
-    <meta name="keywords" content="QuizMaster, trivia, quizzes, knowledge tests, educational games, brain teasers, quiz games, learning quizzes, interactive quizzes, fun facts, quiz competitions">
-    <meta name="author" content="Mario Borges">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FlashFacts is a quiz with a diverse theme."
+    />
+    <meta
+      name="keywords"
+      content="QuizMaster, trivia, quizzes, knowledge tests, educational games, brain teasers, quiz games, learning quizzes, interactive quizzes, fun facts, quiz competitions"
+    />
+    <meta name="author" content="Mario Borges" />
     <title>FlashFacts</title>
-    <link rel="stylesheet" href="assets/css/contactus.css"/>
+    <link rel="stylesheet" href="assets/css/contactus.css" />
 
-    <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
-<script type="text/javascript">
-  emailjs.init('VjnsAuX8tmMi008p9')
-</script>
-
-</head>
-<body>
+    <script type="text/javascript">
+      emailjs.init("VjnsAuX8tmMi008p9");
+    </script>
+  </head>
+  <body>
     <!--HEADER-->
     <header>
-        <div id="logodiv"><!--LOGO-->
-            <h2 id="logoh2">FlashFacts</h2>
-        </div>
-         
-        <div id="menu"> <!--MENU-->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="quiz.html">Quiz?</a></li>
-            </ul>
-        </div> 
+      <div id="logodiv">
+        <!--LOGO-->
+        <h2 id="logoh2">FlashFacts</h2>
+      </div>
+
+      <div id="menu">
+        <!--MENU-->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="quiz.html">Quiz?</a></li>
+        </ul>
+      </div>
     </header>
 
     <!--MAIN-->
     <main>
-            <form id="form">
-                <h1 id="formh1">Contact Us:</h1>
-                <div class="field">
-                  <label for="from_name">Name:</label>
-                  <input type="text" name="from_name" id="from_name">
-                </div>
-                <div class="field">
-                  <label for="to_name">Email:</label>
-                  <input type="text" name="to_name" id="to_name">
-                </div>
-                <div class="field">
-                  <label for="message">Message:</label>
-                  <textarea id="message" rows="4" name="message" required></textarea>
-                </div>
-              
-                <input type="submit" id="button" value="Send Email" >
-              </form>
-
-        <div id="coments">
-            <h2>What are they saying about us?</h2>
+      <form id="form">
+        <h1 id="formh1">Contact Us:</h1>
+        <div class="field">
+          <label for="from_name">Name:</label>
+          <input type="text" name="from_name" id="from_name" />
         </div>
+        <div class="field">
+          <label for="to_name">Email:</label>
+          <input type="text" name="to_name" id="to_name" />
+        </div>
+        <div class="field">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" name="message" required></textarea>
+        </div>
+
+        <input type="submit" id="button" value="Send Email" />
+      </form>
+
+      <div id="coments">
+        <h2>What are they saying about us?</h2>
+      </div>
     </main>
 
     <!--FOOTER-->
     <footer>
-        <h2 id="footer">Quiz created by Mario Borges</h2>
-        <img src="assets/images/sewerfrog.png" alt="frog holding sign written quiz" id="logofrog">
+      <h2 id="footer">Quiz created by Mario Borges</h2>
+      <img
+        src="assets/images/sewerfrog.png"
+        alt="frog holding sign written quiz"
+        id="logofrog"
+      />
     </footer>
-    
+
     <script src="assets/js/contactus.js"></script>
-</body>
+  </body>
 </html>
